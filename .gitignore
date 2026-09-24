@@ -9,3 +9,5 @@ data/.clean_prev.json
 # third-party binaries / app packages: do not redistribute
 *.apk
 SuonasiOS-*.apk
+# local reference material kept out of the repo
+17+难度定数表/
