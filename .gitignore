@@ -11,3 +11,6 @@ data/.clean_prev.json
 SuonasiOS-*.apk
 # local reference material kept out of the repo
 17+难度定数表/
+# public-safe: third-party source table (not ours to redistribute) + font of unknown license
+data/subjective_diff.xlsx
+cmdysj.ttf

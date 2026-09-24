@@ -7,7 +7,7 @@ import requests
 from phira_pp.api import load_token
 
 H = "https://phira.5wyxi.com"
-U = 459003
+U = 0
 
 bare = requests.Session()
 bare.headers["User-Agent"] = "Mozilla/5.0"

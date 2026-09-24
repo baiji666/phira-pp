@@ -22,7 +22,7 @@ from phira_pp.api import _record_from_dict
 from phira_pp.pipeline import PPEngine, osu_total_pp
 from phira_pp.pp import performance_pp
 
-UID = int(sys.argv[1]) if len(sys.argv) > 1 else 459003
+UID = int(sys.argv[1]) if len(sys.argv) > 1 else 0
 failures: list[str] = []
 
 

@@ -43,7 +43,7 @@ def bench(workers, hosts):
     def one(i):
         url = f"https://{hosts[i % len(hosts)]}/record"
         try:
-            requests.get(url, params={"player": 459003, "chart": i},
+            requests.get(url, params={"player": 0, "chart": i},
                          headers={"User-Agent": "Mozilla/5.0"}, timeout=30)
         except Exception:  # noqa: BLE001
             pass

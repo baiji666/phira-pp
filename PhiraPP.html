@@ -288,7 +288,7 @@ async function getCharts(ids) {
 
 /* Every record the API returns for this player x chart (<=20).  Selection is
  * deferred to bestRow() until the difficulty is known, because PP is NOT
- * monotone in score.  Verified on 459003: picking by score understates the
+ * monotone in score.  Verified on <Phira ID>: picking by score understates the
  * Best-100 by 287 PP (it also loses 8.5 PP to accuracy-only picking). */
 async function playerChart(uid, cid) {
   const rows = await jget("/record", { player: uid, chart: cid });

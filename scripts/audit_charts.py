@@ -15,7 +15,7 @@ import numpy as np
 from phira_pp.api import PhiraClient, _record_from_dict
 from phira_pp.dataset import Dataset, load_model
 
-USER = 459003
+USER = 0
 FLAGGED = {
     54540: "高估", 50333: "高估", 30942: "高估", 52597: "高估",
     22206: "低估", 53994: "低估", 73474: "稍有高估",
@@ -52,9 +52,9 @@ for cid, tag in FLAGGED.items():
         if rows:
             best = max(rows, key=lambda x: float(x.get("score") or 0))
             rec = _record_from_dict(best)
-            print(f"    我(459003)最佳: score={rec.score} acc={rec.accuracy*100:.2f}% "
+            print(f"    我(0)最佳: score={rec.score} acc={rec.accuracy*100:.2f}% "
                   f"miss={rec.miss} std={rec.std*1000:.1f}ms n={rec.total_judged}")
         else:
-            print("    我(459003)未游玩")
+            print("    我(0)未游玩")
     except Exception as exc:  # noqa: BLE001
         print(f"    record lookup failed: {exc}")

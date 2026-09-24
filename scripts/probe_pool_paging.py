@@ -15,7 +15,7 @@ if tok:
     S.headers["Authorization"] = f"Bearer {tok}"
 
 HOST = "https://phira.5wyxi.com"
-U, C = 459003, 16593
+U, C = 0, 16593
 
 print("=== get-pool length / paging ===")
 for q in ("", "?page=1&pageNum=100", "?page=2&pageNum=100", "?pageNum=1000"):

@@ -12,7 +12,7 @@ import requests
 from phira_pp.api import TOKEN_FILE, TOKEN_ENV, load_token
 
 TOKEN = load_token()
-USER = int(os.environ.get("USER_ID", "459003"))
+USER = int(os.environ.get("USER_ID", "0"))
 
 S = requests.Session()
 S.headers["User-Agent"] = "Mozilla/5.0"

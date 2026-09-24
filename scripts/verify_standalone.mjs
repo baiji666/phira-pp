@@ -3,12 +3,12 @@
  * in Node and printing the same numbers the page would show.  The result is then
  * compared against the Python CLI (`scripts/pp.py best <id> -n 100`).
  *
- *   node scripts/verify_standalone.mjs 459003
+ *   node scripts/verify_standalone.mjs <Phira ID>
  */
 import fs from "node:fs";
 import vm from "node:vm";
 
-const uid = Number(process.argv[2] || 459003);
+const uid = Number(process.argv[2] || <Phira ID>);
 const html = fs.readFileSync("PhiraPP.html", "utf8");
 const script = html.match(/<script>([\s\S]*?)<\/script>/)[1]
   + "\nglobalThis.__t = { DIFF, performancePP, getCharts, playerChart, pool, "

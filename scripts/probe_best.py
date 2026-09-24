@@ -8,7 +8,7 @@ S = requests.Session()
 S.headers["User-Agent"] = "Mozilla/5.0"
 
 HOSTS = ["https://phira.5wyxi.com", "https://api.phira.cn"]
-USER = 459003
+USER = 0
 
 CANDIDATES = [
     "/record/best/{u}",

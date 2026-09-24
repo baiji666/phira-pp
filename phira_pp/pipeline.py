@@ -91,7 +91,7 @@ def _best_play_row(rows: list[dict], difficulty: float | None,
     selects by a rule (its default is ``highestAccuracy``); PP-max dominates both
     that and score-max.
 
-    Verified on real data (459003, 442-chart community set): score-max gives a
+    Verified on real data (0, 442-chart community set): score-max gives a
     Best-100 of 20085.1, accuracy-max 20363.4, PP-max 20371.9 (+286.8 vs the old
     score-based pick, and +8.5 over accuracy-max).  93/357 charts differ.
 

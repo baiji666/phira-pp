@@ -17,7 +17,7 @@ if tok:
     S.headers["Authorization"] = f"Bearer {tok}"
 
 H = "https://phira.5wyxi.com"
-U = 459003
+U = 0
 
 ids = [r["id"] for r in json.load(open("data/kv_diff.json", encoding="utf-8"))["rows"]]
 picks = ids[:6] + ids[len(ids) // 3: len(ids) // 3 + 4] + ids[-6:] + [44231, 13, 16593, 42891, 76959, 77421]

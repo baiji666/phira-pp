@@ -18,7 +18,7 @@ if TOKEN:
 print("token present:", bool(TOKEN))
 
 HOST = "https://phira.5wyxi.com"
-USER, CHART = 459003, 16593
+USER, CHART = 0, 16593
 
 CANDIDATES = [
     f"/record/best/{CHART}",

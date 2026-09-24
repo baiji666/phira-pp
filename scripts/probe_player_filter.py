@@ -18,7 +18,7 @@ print("token present:", bool(TOKEN))
 
 HOST = "https://phira.5wyxi.com"
 CHART = 16593
-ME, OTHER = 459003, 289906  # OTHER has score 1000000 on this chart
+ME, OTHER = 0, 289906  # OTHER has score 1000000 on this chart
 
 BASE = S.get(f"{HOST}/record/best/{CHART}", timeout=30)
 print(f"baseline (no filter)            -> {BASE.status_code} {BASE.text[:120]}")

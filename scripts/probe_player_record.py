@@ -10,7 +10,7 @@ import requests
 
 BASE = "https://api.phira.cn"
 CHART = 26795
-USER = 459003
+USER = 0
 
 
 def show(tag, resp):

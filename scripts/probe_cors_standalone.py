@@ -19,7 +19,7 @@ def get_probe(url, origin):
 
 print("== simple GET (preflight-free) ==")
 for host in HOSTS:
-    for path in ("/record?player=459003&chart=16593", "/chart/multi-get?ids=51,13", "/user/459003"):
+    for path in ("/record?player=0&chart=16593", "/chart/multi-get?ids=51,13", "/user/0"):
         for origin in ORIGINS:
             st, acao, acac = get_probe(host + path, origin)
             print(f"  {host.split('//')[1]:<20} {path:<38} origin={origin:<22} "

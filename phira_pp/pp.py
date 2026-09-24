@@ -37,7 +37,7 @@ class PPParams:
     # between difficulties (the reason this exists).  Configurable per request.
     #
     # Raised 2.0 -> 6.0 on request ("单曲 PP 拉不开差距、低难度的给太多").
-    # Measured on 459003's 338 real plays (scripts/sweep_diff_exp.py):
+    # Measured on <Phira ID>'s 338 real plays (scripts/sweep_diff_exp.py):
     #   exp   b1-b100 gap   b1/b100   17.0@100%   lowest 定数 in top-100
     #   2.0       144        1.165       892            17.00
     #   4.0       185        1.207       796            17.50
@@ -48,7 +48,7 @@ class PPParams:
     diff_exp: float = 6.0
     acc_floor: float = 0.70
     # Raised 2.0 -> 4.0 on request ("97%/98% 的惩罚太小，拉不开差距").
-    # Measured on 459003's 338 real plays (scripts/sweep_acc_pow.py, diff_exp=6):
+    # Measured on <Phira ID>'s 338 real plays (scripts/sweep_acc_pow.py, diff_exp=6):
     #   acc     p=2      p=3      p=4      p=5      pow  b1-b100 gap  b1/b100  inv
     #   99%   0.9344   0.9033   0.8732   0.8441     2.0      295.5      1.319    0
     #   98%   0.8711   0.8130   0.7588   0.7082     4.0      308.4      1.370    0
@@ -64,7 +64,7 @@ class PPParams:
     # The weight is capped so this *secondary* modifier can never overturn a 1.0
     # 定数 step.  std is itself correlated with difficulty (harder charts -> larger
     # timing error), so a wide swing systematically cancels the difficulty gain.
-    # Measured on real data (scripts/sweep_pp_params.py, 338 plays of 459003):
+    # Measured on real data (scripts/sweep_pp_params.py, 338 plays of <Phira ID>):
     # at 0.20 an 18.60@99.85% scored *below* a 17.50@100% (pp x0.9617) and there
     # were 2 such inversions.  The bound (19/18)^2 = 1.114 > (1+w/2)/(1-w/2)
     # requires w < 0.108; 0.08 leaves margin and makes the inversions vanish.

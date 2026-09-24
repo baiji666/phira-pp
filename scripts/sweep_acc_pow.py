@@ -9,7 +9,7 @@ import dataclasses
 from phira_pp.pipeline import PPEngine
 from phira_pp.pp import performance_pp
 
-USER = 459003
+USER = 0
 eng = PPEngine()
 res, _ = eng.best_plays_direct(USER)
 data = [(p.difficulty, p.record) for p in res

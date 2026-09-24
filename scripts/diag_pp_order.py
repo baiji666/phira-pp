@@ -8,7 +8,7 @@ import sys
 
 from phira_pp.pipeline import PPEngine
 
-USER = int(sys.argv[1]) if len(sys.argv) > 1 else 459003
+USER = int(sys.argv[1]) if len(sys.argv) > 1 else 0
 
 eng = PPEngine()
 res, stats = eng.best_plays_direct(USER)

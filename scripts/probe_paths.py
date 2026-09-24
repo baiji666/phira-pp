@@ -12,7 +12,7 @@ if tok:
 print("token present:", bool(tok))
 
 HOST = "https://phira.5wyxi.com"
-U, C = 459003, 16593
+U, C = 0, 16593
 
 PATHS = [
     f"/record/best/{C}",

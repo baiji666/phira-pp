@@ -8,7 +8,7 @@ from phira_pp.api import PhiraClient
 A = PhiraClient(base="https://api.phira.cn")
 B = PhiraClient(base="https://phira.5wyxi.com")
 ids = list(range(1, 401))
-U = 459003
+U = 0
 
 
 def bench(workers, clients, label):
