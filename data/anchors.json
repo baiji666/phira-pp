@@ -1,0 +1,5142 @@
+{
+ "resolved": [
+  {
+   "page": 1,
+   "group": 19.1,
+   "id": 76993,
+   "name": "Glacier",
+   "charter_diff": 19.0,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 1,
+   "group": 19.1,
+   "id": 44992,
+   "name": "Dear Farthest You",
+   "charter_diff": 18.900003,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 2,
+   "group": 18.6,
+   "id": 44265,
+   "name": "Ragnarok",
+   "charter_diff": 18.6,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 1,
+   "group": 19.1,
+   "id": 46486,
+   "name": "Stellar:Dream",
+   "charter_diff": 19.0,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 1,
+   "group": 19.0,
+   "id": 62774,
+   "name": "hyperreality",
+   "charter_diff": 19.000002,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 1,
+   "group": 19.0,
+   "id": 71230,
+   "name": "HYPER MEMORIES",
+   "charter_diff": 19.000002,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 2
+  },
+  {
+   "page": 4,
+   "group": 18.4,
+   "id": 50590,
+   "name": "HYPER MEMORIES",
+   "charter_diff": 18.2,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 2
+  },
+  {
+   "page": 1,
+   "group": 19.0,
+   "id": 36253,
+   "name": "The Final EndGame",
+   "charter_diff": 18.600002,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 3
+  },
+  {
+   "page": 1,
+   "group": 19.0,
+   "id": 70124,
+   "name": "The Final EndGame",
+   "charter_diff": 18.7,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 3
+  },
+  {
+   "page": 1,
+   "group": 19.0,
+   "id": 62800,
+   "name": "The Final EndGame",
+   "charter_diff": 19.0,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 3
+  },
+  {
+   "page": 1,
+   "group": 19.0,
+   "id": 47448,
+   "name": "Vicious Mockery",
+   "charter_diff": 19.1,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 1,
+   "group": 19.0,
+   "id": 47269,
+   "name": "Greeting into Abysschaos",
+   "charter_diff": 18.5,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 2
+  },
+  {
+   "page": 12,
+   "group": 17.2,
+   "id": 62779,
+   "name": "Greeting into Abysschaos",
+   "charter_diff": 18.0,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 3
+  },
+  {
+   "page": 1,
+   "group": 18.9,
+   "id": 31096,
+   "name": "True Blue",
+   "charter_diff": 18.400002,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 2
+  },
+  {
+   "page": 1,
+   "group": 18.9,
+   "id": 48380,
+   "name": "TruE",
+   "charter_diff": 20.0,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 2
+  },
+  {
+   "page": 1,
+   "group": 18.9,
+   "id": 33220,
+   "name": "Invisible Frenzy",
+   "charter_diff": 18.300007,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 1,
+   "group": 18.9,
+   "id": 52547,
+   "name": "Traxxendenza",
+   "charter_diff": 18.600002,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 1,
+   "group": 18.8,
+   "id": 34128,
+   "name": "ギザバ怪文書",
+   "charter_diff": 18.699999,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 1,
+   "group": 18.8,
+   "id": 72227,
+   "name": "Monolith",
+   "charter_diff": 18.0,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 1,
+   "group": 18.8,
+   "id": 42058,
+   "name": "Parallel Universe Shifter",
+   "charter_diff": 18.499998,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 3
+  },
+  {
+   "page": 7,
+   "group": 18.1,
+   "id": 36844,
+   "name": "Parallel Universe Shifter",
+   "charter_diff": 18.0,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 3
+  },
+  {
+   "page": 7,
+   "group": 18.1,
+   "id": 15183,
+   "name": "Parallel Universe Shifter",
+   "charter_diff": 18.000004,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 3
+  },
+  {
+   "page": 3,
+   "group": 18.5,
+   "id": 24969,
+   "name": "WACCA ULTRA DREAM MEGAMIX",
+   "charter_diff": 17.700003,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 3,
+   "group": 18.5,
+   "id": 72993,
+   "name": "SPOOKY Abyssal Vow",
+   "charter_diff": 18.500002,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 3,
+   "group": 18.5,
+   "id": 63825,
+   "name": "EDM Jumpers",
+   "charter_diff": 18.300001,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 2
+  },
+  {
+   "page": 3,
+   "group": 18.5,
+   "id": 52599,
+   "name": "EDM Jumpers",
+   "charter_diff": 18.0,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 2
+  },
+  {
+   "page": 5,
+   "group": 18.3,
+   "id": 34208,
+   "name": "Echoes of Memoria",
+   "charter_diff": 17.800003,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 3
+  },
+  {
+   "page": 5,
+   "group": 18.3,
+   "id": 49513,
+   "name": "Echoes of Memoria",
+   "charter_diff": 17.300001,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 3
+  },
+  {
+   "page": 5,
+   "group": 18.3,
+   "id": 39178,
+   "name": "Echoes of Memoria",
+   "charter_diff": 17.600002,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 3
+  },
+  {
+   "page": 3,
+   "group": 18.5,
+   "id": 33440,
+   "name": "氷滅の135小節",
+   "charter_diff": 18.200005,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 4,
+   "group": 18.4,
+   "id": 54491,
+   "name": "Avantgarde",
+   "charter_diff": 17.9,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 2
+  },
+  {
+   "page": 4,
+   "group": 18.4,
+   "id": 37500,
+   "name": "Avantgarde",
+   "charter_diff": 18.000004,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 2
+  },
+  {
+   "page": 4,
+   "group": 18.4,
+   "id": 44085,
+   "name": "Möbius",
+   "charter_diff": 17.5,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 2
+  },
+  {
+   "page": 3,
+   "group": 18.5,
+   "id": 72551,
+   "name": "marguerite inorganique",
+   "charter_diff": 18.300001,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 3,
+   "group": 18.5,
+   "id": 31331,
+   "name": "Calamity Tempest",
+   "charter_diff": 18.200005,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 10,
+   "group": 17.6,
+   "id": 64705,
+   "name": "MEGALOVANIA(Camellia Remix)",
+   "charter_diff": 18.0,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 3
+  },
+  {
+   "page": 3,
+   "group": 18.5,
+   "id": 46856,
+   "name": "MEGALOVANIA (Camellia Remix)",
+   "charter_diff": 19.0,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 2
+  },
+  {
+   "page": 3,
+   "group": 18.5,
+   "id": 52943,
+   "name": "Bismuth",
+   "charter_diff": 18.300005,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 2
+  },
+  {
+   "page": 3,
+   "group": 18.5,
+   "id": 31882,
+   "name": "Bismuth",
+   "charter_diff": 18.4,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 2
+  },
+  {
+   "page": 3,
+   "group": 18.5,
+   "id": 68240,
+   "name": "Calamity of the Mystic Garden : Doom",
+   "charter_diff": 18.300001,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 2
+  },
+  {
+   "page": 8,
+   "group": 17.9,
+   "id": 53789,
+   "name": "Calamity of the Mystic Garden  Doom",
+   "charter_diff": 17.800001,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 3
+  },
+  {
+   "page": 4,
+   "group": 18.4,
+   "id": 39595,
+   "name": "BRAVE ROAD",
+   "charter_diff": 18.1,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 2
+  },
+  {
+   "page": 4,
+   "group": 18.4,
+   "id": 75489,
+   "name": "BRAVE:ROAD",
+   "charter_diff": 17.600002,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 2
+  },
+  {
+   "page": 3,
+   "group": 18.5,
+   "id": 43988,
+   "name": "Waking Shadows (feat. Eili)",
+   "charter_diff": 18.500002,
+   "ranked": true,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 3,
+   "group": 18.5,
+   "id": 25075,
+   "name": "《Re:miniscence》",
+   "charter_diff": 18.400003,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 3,
+   "group": 18.5,
+   "id": 20217,
+   "name": "Blackmagik Blazing",
+   "charter_diff": 18.500006,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 3,
+   "group": 18.5,
+   "id": 16816,
+   "name": "天空の城ヴェリエル",
+   "charter_diff": 18.000004,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 3
+  },
+  {
+   "page": 3,
+   "group": 18.5,
+   "id": 21148,
+   "name": "天空の城ヴェリエル",
+   "charter_diff": 17.9,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 3
+  },
+  {
+   "page": 3,
+   "group": 18.5,
+   "id": 15169,
+   "name": "天空の城ヴェリエル",
+   "charter_diff": 17.900003,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 3
+  },
+  {
+   "page": 3,
+   "group": 18.5,
+   "id": 69495,
+   "name": "Unraveling Stasis",
+   "charter_diff": 18.400003,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 3
+  },
+  {
+   "page": 3,
+   "group": 18.5,
+   "id": 74588,
+   "name": "Unraveling Stasis",
+   "charter_diff": 18.400002,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 3
+  },
+  {
+   "page": 3,
+   "group": 18.5,
+   "id": 46490,
+   "name": "Unraveling Stasis",
+   "charter_diff": 18.0,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 3
+  },
+  {
+   "page": 5,
+   "group": 18.3,
+   "id": 40384,
+   "name": "ULTiMATE INFLATiON",
+   "charter_diff": 18.000004,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 2
+  },
+  {
+   "page": 5,
+   "group": 18.3,
+   "id": 19391,
+   "name": "ULTiMATE INFLATiON",
+   "charter_diff": 17.400002,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 2
+  },
+  {
+   "page": 3,
+   "group": 18.5,
+   "id": 39018,
+   "name": "DA'AT -The First Seeker of Souls-",
+   "charter_diff": 18.400005,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 2
+  },
+  {
+   "page": 8,
+   "group": 17.9,
+   "id": 30514,
+   "name": "DA'AT -The First Seeker of Souls-",
+   "charter_diff": 17.900007,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 3
+  },
+  {
+   "page": 4,
+   "group": 18.4,
+   "id": 52423,
+   "name": "Exit This Earth's Atomosphere",
+   "charter_diff": 17.700005,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 2
+  },
+  {
+   "page": 4,
+   "group": 18.4,
+   "id": 47326,
+   "name": "Exit This Earth's Atomosphere",
+   "charter_diff": 18.300001,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 2
+  },
+  {
+   "page": 8,
+   "group": 18.0,
+   "id": 7039,
+   "name": "A Lasting Promise",
+   "charter_diff": 18.000004,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 9,
+   "group": 17.8,
+   "id": 31214,
+   "name": "Ultimate Force",
+   "charter_diff": 17.600006,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 6
+  },
+  {
+   "page": 8,
+   "group": 18.0,
+   "id": 26636,
+   "name": "Ultimate Force",
+   "charter_diff": 18.000008,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 5
+  },
+  {
+   "page": 12,
+   "group": 17.1,
+   "id": 52307,
+   "name": "Ultimate Force",
+   "charter_diff": 16.8,
+   "ranked": true,
+   "via": "search",
+   "n_candidates": 8
+  },
+  {
+   "page": 12,
+   "group": 17.1,
+   "id": 26698,
+   "name": "Ultimate Force",
+   "charter_diff": 16.800003,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 8
+  },
+  {
+   "page": 12,
+   "group": 17.1,
+   "id": 25137,
+   "name": "Ultimate Force",
+   "charter_diff": 16.800003,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 8
+  },
+  {
+   "page": 8,
+   "group": 18.0,
+   "id": 38741,
+   "name": "Eternal Ending",
+   "charter_diff": 18.100008,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 8,
+   "group": 18.0,
+   "id": 42919,
+   "name": "Thrudgelmir",
+   "charter_diff": 17.500004,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 8,
+   "group": 18.0,
+   "id": 52558,
+   "name": "To:Be Continued",
+   "charter_diff": 18.100004,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 3
+  },
+  {
+   "page": 11,
+   "group": 17.3,
+   "id": 37595,
+   "name": "To : Be Continued",
+   "charter_diff": 17.2,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 4
+  },
+  {
+   "page": 11,
+   "group": 17.3,
+   "id": 65715,
+   "name": "To Be Continue",
+   "charter_diff": 17.300001,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 4
+  },
+  {
+   "page": 8,
+   "group": 18.0,
+   "id": 23418,
+   "name": "GAME：CHANGER",
+   "charter_diff": 17.0,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 2
+  },
+  {
+   "page": 8,
+   "group": 18.0,
+   "id": 17668,
+   "name": "GAME：CHANGER",
+   "charter_diff": 17.100004,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 2
+  },
+  {
+   "page": 8,
+   "group": 18.0,
+   "id": 46403,
+   "name": "Crossmythos Rhapsodia",
+   "charter_diff": 18.1,
+   "ranked": true,
+   "via": "search",
+   "n_candidates": 2
+  },
+  {
+   "page": 8,
+   "group": 18.0,
+   "id": 40981,
+   "name": "Crossmythos Rhapsodia",
+   "charter_diff": 18.0,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 2
+  },
+  {
+   "page": 8,
+   "group": 18.0,
+   "id": 53030,
+   "name": "Innocent",
+   "charter_diff": 18.0,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 8,
+   "group": 18.0,
+   "id": 16593,
+   "name": "DEUX EX MĀXHINĀ",
+   "charter_diff": 18.000008,
+   "ranked": true,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 8,
+   "group": 18.0,
+   "id": 62748,
+   "name": "ZENITHALIZE",
+   "charter_diff": 18.1,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 8,
+   "group": 18.0,
+   "id": 45163,
+   "name": "Eternity",
+   "charter_diff": 17.6,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 8,
+   "group": 18.0,
+   "id": 41270,
+   "name": "silly-willy-nilly",
+   "charter_diff": 17.9,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 8,
+   "group": 17.9,
+   "id": 43185,
+   "name": "ENDYMION",
+   "charter_diff": 17.600002,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 8,
+   "group": 17.9,
+   "id": 73397,
+   "name": "Sendan Life(かたぎり Bootleg)",
+   "charter_diff": 17.900002,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 4
+  },
+  {
+   "page": 8,
+   "group": 17.9,
+   "id": 56848,
+   "name": "Sendan Life(Katagiri Bootleg)",
+   "charter_diff": 18.0,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 4
+  },
+  {
+   "page": 8,
+   "group": 17.9,
+   "id": 18552,
+   "name": "Sendan Life (Katagiri Bootleg)",
+   "charter_diff": 17.000008,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 4
+  },
+  {
+   "page": 8,
+   "group": 17.9,
+   "id": 19108,
+   "name": "Sendan Life(Katagiri Bootleg)",
+   "charter_diff": 16.800003,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 4
+  },
+  {
+   "page": 8,
+   "group": 17.9,
+   "id": 52450,
+   "name": "Bathin",
+   "charter_diff": 17.900002,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 2
+  },
+  {
+   "page": 10,
+   "group": 17.5,
+   "id": 7516,
+   "name": "Bathin",
+   "charter_diff": 17.500006,
+   "ranked": true,
+   "via": "search",
+   "n_candidates": 3
+  },
+  {
+   "page": 8,
+   "group": 17.9,
+   "id": 72744,
+   "name": "Recollect Lines",
+   "charter_diff": 18.0,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 2
+  },
+  {
+   "page": 8,
+   "group": 17.9,
+   "id": 39642,
+   "name": "Recollect Lines",
+   "charter_diff": 17.3,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 2
+  },
+  {
+   "page": 8,
+   "group": 17.9,
+   "id": 28003,
+   "name": "DA'AT -The First Seeker of Souls-",
+   "charter_diff": 17.0,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 3
+  },
+  {
+   "page": 8,
+   "group": 17.9,
+   "id": 45005,
+   "name": "Campanella",
+   "charter_diff": 17.0,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 8,
+   "group": 17.9,
+   "id": 43663,
+   "name": "#curtaincall 1.3x",
+   "charter_diff": 18.0,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 12,
+   "group": 17.1,
+   "id": 11517,
+   "name": "Le Porteur d'Ombre",
+   "charter_diff": 17.0,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 13
+  },
+  {
+   "page": 12,
+   "group": 17.1,
+   "id": 7328,
+   "name": "Le Porteur d'Ombre",
+   "charter_diff": 17.0,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 13
+  },
+  {
+   "page": 12,
+   "group": 17.1,
+   "id": 1868,
+   "name": "Le Porteur d'Ombre",
+   "charter_diff": 17.0,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 13
+  },
+  {
+   "page": 12,
+   "group": 17.1,
+   "id": 47654,
+   "name": "Le Porteur d'Ombre",
+   "charter_diff": 17.000002,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 13
+  },
+  {
+   "page": 12,
+   "group": 17.1,
+   "id": 17303,
+   "name": "Le Porteur d'Ombre",
+   "charter_diff": 16.700003,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 13
+  },
+  {
+   "page": 8,
+   "group": 17.9,
+   "id": 44874,
+   "name": "I Wanna",
+   "charter_diff": 17.0,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 2
+  },
+  {
+   "page": 8,
+   "group": 17.9,
+   "id": 42628,
+   "name": "I Wanna",
+   "charter_diff": 17.9,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 2
+  },
+  {
+   "page": 8,
+   "group": 17.9,
+   "id": 49778,
+   "name": "Calamity of the Mystic Garden Doom",
+   "charter_diff": 17.0,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 3
+  },
+  {
+   "page": 8,
+   "group": 17.9,
+   "id": 54870,
+   "name": "Reincarnation",
+   "charter_diff": 17.0,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 8,
+   "group": 17.9,
+   "id": 61057,
+   "name": "Scorpion Dance",
+   "charter_diff": 17.700003,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 8,
+   "group": 17.9,
+   "id": 7707,
+   "name": "Annihilation in F# Minor",
+   "charter_diff": 17.700003,
+   "ranked": true,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 8,
+   "group": 17.9,
+   "id": 57928,
+   "name": "Deep Blue",
+   "charter_diff": 17.700003,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 10,
+   "group": 17.6,
+   "id": 15892,
+   "name": "NIGHTWAVE FRAGMENTS",
+   "charter_diff": 16.800003,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 10,
+   "group": 17.6,
+   "id": 19683,
+   "name": "MEGALOVANIA",
+   "charter_diff": 16.700003,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 3
+  },
+  {
+   "page": 10,
+   "group": 17.6,
+   "id": 26017,
+   "name": "MEGALOVANIA(Camellia Remix)",
+   "charter_diff": 17.0,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 3
+  },
+  {
+   "page": 10,
+   "group": 17.6,
+   "id": 19573,
+   "name": "iLLness LiLin",
+   "charter_diff": 16.9,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 10,
+   "group": 17.6,
+   "id": 1051,
+   "name": "666",
+   "charter_diff": 16.800005,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 3
+  },
+  {
+   "page": 10,
+   "group": 17.6,
+   "id": 71712,
+   "name": "666",
+   "charter_diff": 17.0,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 3
+  },
+  {
+   "page": 10,
+   "group": 17.6,
+   "id": 16119,
+   "name": "666",
+   "charter_diff": 16.500002,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 3
+  },
+  {
+   "page": 6,
+   "group": 18.2,
+   "id": 19892,
+   "name": "Picasso",
+   "charter_diff": 17.999998,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 10,
+   "group": 17.6,
+   "id": 19181,
+   "name": "Picasso",
+   "charter_diff": 16.700005,
+   "ranked": true,
+   "via": "search",
+   "n_candidates": 4
+  },
+  {
+   "page": 10,
+   "group": 17.6,
+   "id": 3544,
+   "name": "Picasso",
+   "charter_diff": 16.5,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 4
+  },
+  {
+   "page": 10,
+   "group": 17.6,
+   "id": 3207,
+   "name": "Picasso",
+   "charter_diff": 16.6,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 4
+  },
+  {
+   "page": 10,
+   "group": 17.6,
+   "id": 42982,
+   "name": "Booths of Fighters",
+   "charter_diff": 17.2,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 12,
+   "group": 17.2,
+   "id": 67836,
+   "name": "GEOLOGICAL//IRRESOLUTION",
+   "charter_diff": 17.0,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 2
+  },
+  {
+   "page": 12,
+   "group": 17.2,
+   "id": 60991,
+   "name": "GEOLOGICAL//IRRESOLUTION",
+   "charter_diff": 17.0,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 2
+  },
+  {
+   "page": 10,
+   "group": 17.5,
+   "id": 49567,
+   "name": "百鬼֎夜行",
+   "charter_diff": 17.400002,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 2
+  },
+  {
+   "page": 10,
+   "group": 17.5,
+   "id": 48995,
+   "name": "百鬼֎夜行",
+   "charter_diff": 17.300001,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 2
+  },
+  {
+   "page": 10,
+   "group": 17.6,
+   "id": 54781,
+   "name": "深化論",
+   "charter_diff": 17.0,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 10,
+   "group": 17.6,
+   "id": 67951,
+   "name": "TECHNiCAL REVOLUTiON",
+   "charter_diff": 17.0,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 10,
+   "group": 17.6,
+   "id": 294,
+   "name": "XODUS",
+   "charter_diff": 16.900002,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 4
+  },
+  {
+   "page": 10,
+   "group": 17.6,
+   "id": 57716,
+   "name": "XODUS",
+   "charter_diff": 17.900003,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 4
+  },
+  {
+   "page": 10,
+   "group": 17.6,
+   "id": 41501,
+   "name": "XODUS",
+   "charter_diff": 17.800003,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 4
+  },
+  {
+   "page": 10,
+   "group": 17.6,
+   "id": 38276,
+   "name": "XODUS",
+   "charter_diff": 17.400002,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 4
+  },
+  {
+   "page": 10,
+   "group": 17.6,
+   "id": 7640,
+   "name": "Bad Elixir",
+   "charter_diff": 17.2,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 3
+  },
+  {
+   "page": 10,
+   "group": 17.6,
+   "id": 6182,
+   "name": "Bad Elixir",
+   "charter_diff": 17.4,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 3
+  },
+  {
+   "page": 10,
+   "group": 17.6,
+   "id": 28101,
+   "name": "Bad Elixir",
+   "charter_diff": 16.900003,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 3
+  },
+  {
+   "page": 9,
+   "group": 17.8,
+   "id": 52928,
+   "name": "Dreamseeker",
+   "charter_diff": 17.800003,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 2
+  },
+  {
+   "page": 10,
+   "group": 17.6,
+   "id": 53317,
+   "name": "Dreamseeker",
+   "charter_diff": 17.6,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 2
+  },
+  {
+   "page": 10,
+   "group": 17.6,
+   "id": 61763,
+   "name": "MarbleBlue.",
+   "charter_diff": 17.300001,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 7
+  },
+  {
+   "page": 10,
+   "group": 17.6,
+   "id": 73385,
+   "name": "MarbleBlue.",
+   "charter_diff": 17.500002,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 7
+  },
+  {
+   "page": 10,
+   "group": 17.6,
+   "id": 1251,
+   "name": "MarbleBlue.",
+   "charter_diff": 16.400005,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 7
+  },
+  {
+   "page": 9,
+   "group": 17.8,
+   "id": 53049,
+   "name": "MarbleBlue.",
+   "charter_diff": 18.300001,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 6
+  },
+  {
+   "page": 10,
+   "group": 17.6,
+   "id": 52982,
+   "name": "MarbleBlue.",
+   "charter_diff": 17.300001,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 7
+  },
+  {
+   "page": 10,
+   "group": 17.6,
+   "id": 49800,
+   "name": "MarbleBlue.",
+   "charter_diff": 17.0,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 7
+  },
+  {
+   "page": 9,
+   "group": 17.8,
+   "id": 38880,
+   "name": "MarbleBlue.",
+   "charter_diff": 17.800003,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 6
+  },
+  {
+   "page": 10,
+   "group": 17.6,
+   "id": 72696,
+   "name": "Horizon",
+   "charter_diff": 17.600002,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 2
+  },
+  {
+   "page": 10,
+   "group": 17.6,
+   "id": 377,
+   "name": "Horizon Blue",
+   "charter_diff": 16.700003,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 2
+  },
+  {
+   "page": 10,
+   "group": 17.5,
+   "id": 15019,
+   "name": "Astaroth",
+   "charter_diff": 16.600002,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 3
+  },
+  {
+   "page": 10,
+   "group": 17.5,
+   "id": 43373,
+   "name": "Astaroth",
+   "charter_diff": 16.400002,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 3
+  },
+  {
+   "page": 10,
+   "group": 17.5,
+   "id": 19915,
+   "name": "Astaroth",
+   "charter_diff": 17.500002,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 3
+  },
+  {
+   "page": 10,
+   "group": 17.5,
+   "id": 52746,
+   "name": "Bathin",
+   "charter_diff": 16.600002,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 3
+  },
+  {
+   "page": 10,
+   "group": 17.5,
+   "id": 47997,
+   "name": "Sanctuary",
+   "charter_diff": 17.599998,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 10,
+   "group": 17.5,
+   "id": 6117,
+   "name": "Traveler ~stand aloof~",
+   "charter_diff": 16.900002,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 10,
+   "group": 17.5,
+   "id": 24421,
+   "name": "Screw 'N' Twisty",
+   "charter_diff": 17.000004,
+   "ranked": true,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 10,
+   "group": 17.5,
+   "id": 53422,
+   "name": "End Time",
+   "charter_diff": 16.800003,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 7
+  },
+  {
+   "page": 10,
+   "group": 17.5,
+   "id": 52819,
+   "name": "End Time",
+   "charter_diff": 16.300001,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 7
+  },
+  {
+   "page": 10,
+   "group": 17.5,
+   "id": 52217,
+   "name": "End Time",
+   "charter_diff": 16.600002,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 7
+  },
+  {
+   "page": 10,
+   "group": 17.5,
+   "id": 36273,
+   "name": "End Time",
+   "charter_diff": 17.300001,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 7
+  },
+  {
+   "page": 10,
+   "group": 17.5,
+   "id": 35390,
+   "name": "End Time",
+   "charter_diff": 16.700003,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 7
+  },
+  {
+   "page": 10,
+   "group": 17.5,
+   "id": 23969,
+   "name": "End Time",
+   "charter_diff": 16.400002,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 7
+  },
+  {
+   "page": 10,
+   "group": 17.5,
+   "id": 10437,
+   "name": "End Time",
+   "charter_diff": 16.800003,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 7
+  },
+  {
+   "page": 10,
+   "group": 17.5,
+   "id": 27934,
+   "name": "BAYONEX",
+   "charter_diff": 17.1,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 11,
+   "group": 17.3,
+   "id": 52443,
+   "name": "Immaculate",
+   "charter_diff": 17.0,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 6
+  },
+  {
+   "page": 10,
+   "group": 17.5,
+   "id": 78581,
+   "name": "Immaculate",
+   "charter_diff": 17.500002,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 5
+  },
+  {
+   "page": 10,
+   "group": 17.5,
+   "id": 71201,
+   "name": "Immaculate",
+   "charter_diff": 17.500002,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 5
+  },
+  {
+   "page": 11,
+   "group": 17.3,
+   "id": 53070,
+   "name": "Immaculate",
+   "charter_diff": 17.2,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 6
+  },
+  {
+   "page": 11,
+   "group": 17.3,
+   "id": 39777,
+   "name": "Immaculate",
+   "charter_diff": 17.1,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 6
+  },
+  {
+   "page": 10,
+   "group": 17.5,
+   "id": 52674,
+   "name": "Shizuku(feat.NEONA)",
+   "charter_diff": 17.300001,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 10,
+   "group": 17.5,
+   "id": 23523,
+   "name": "うたかたのせかいで",
+   "charter_diff": 17.500006,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 10,
+   "group": 17.5,
+   "id": 34414,
+   "name": "anybody can find love (except you.)",
+   "charter_diff": 17.000004,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 3
+  },
+  {
+   "page": 10,
+   "group": 17.5,
+   "id": 40731,
+   "name": "anybody can find love (except you.)",
+   "charter_diff": 16.800003,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 3
+  },
+  {
+   "page": 10,
+   "group": 17.5,
+   "id": 21362,
+   "name": "Anybody can find love(except you.)",
+   "charter_diff": 16.9,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 3
+  },
+  {
+   "page": 10,
+   "group": 17.5,
+   "id": 67048,
+   "name": "The Everlasting Rain",
+   "charter_diff": 17.5,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 4
+  },
+  {
+   "page": 10,
+   "group": 17.5,
+   "id": 73830,
+   "name": "The Everlasting Rain",
+   "charter_diff": 16.300001,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 4
+  },
+  {
+   "page": 10,
+   "group": 17.5,
+   "id": 6514,
+   "name": "The Everlasting Rain",
+   "charter_diff": 16.400002,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 4
+  },
+  {
+   "page": 10,
+   "group": 17.5,
+   "id": 7305,
+   "name": "the everlasting rain",
+   "charter_diff": 16.300001,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 4
+  },
+  {
+   "page": 10,
+   "group": 17.5,
+   "id": 47555,
+   "name": "AiAe",
+   "charter_diff": 17.500002,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 4,
+   "group": 18.4,
+   "id": 3701,
+   "name": "Möbius",
+   "charter_diff": 17.2,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 2
+  },
+  {
+   "page": 4,
+   "group": 18.4,
+   "id": 65917,
+   "name": "The Devil Incarnate",
+   "charter_diff": 18.300001,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 4,
+   "group": 18.4,
+   "id": 52626,
+   "name": "I Can't Wait feat. GUMI",
+   "charter_diff": 18.0,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 4,
+   "group": 18.4,
+   "id": 50766,
+   "name": "BLUE NOAH 2006",
+   "charter_diff": 18.300001,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 4,
+   "group": 18.4,
+   "id": 43455,
+   "name": "冥",
+   "charter_diff": 18.0,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 4,
+   "group": 18.4,
+   "id": 7917,
+   "name": "キメラ",
+   "charter_diff": 17.2,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 4,
+   "group": 18.4,
+   "id": 56930,
+   "name": "Liar",
+   "charter_diff": 18.2,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 7,
+   "group": 18.1,
+   "id": 68096,
+   "name": "Dextroy",
+   "charter_diff": 18.0,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 4,
+   "group": 18.4,
+   "id": 61630,
+   "name": "Rhythmos Ananke",
+   "charter_diff": 17.9,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 4,
+   "group": 18.4,
+   "id": 33530,
+   "name": "lovelynonsense",
+   "charter_diff": 18.200005,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 4,
+   "group": 18.4,
+   "id": 64248,
+   "name": "夢現妄想世界",
+   "charter_diff": 17.9,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 11,
+   "group": 17.4,
+   "id": 64257,
+   "name": "astral.exe",
+   "charter_diff": 17.300001,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 11,
+   "group": 17.4,
+   "id": 7052,
+   "name": "ギザバ怪文書",
+   "charter_diff": 16.700003,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 2
+  },
+  {
+   "page": 11,
+   "group": 17.4,
+   "id": 43156,
+   "name": "ギザバ怪文書 (feat. 音街ウナ)",
+   "charter_diff": 17.300003,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 2
+  },
+  {
+   "page": 11,
+   "group": 17.4,
+   "id": 11585,
+   "name": "国士無双",
+   "charter_diff": 16.9,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 6
+  },
+  {
+   "page": 11,
+   "group": 17.4,
+   "id": 26796,
+   "name": "国士無双",
+   "charter_diff": 17.500002,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 6
+  },
+  {
+   "page": 11,
+   "group": 17.4,
+   "id": 24506,
+   "name": "国士無双",
+   "charter_diff": 16.699999,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 6
+  },
+  {
+   "page": 11,
+   "group": 17.4,
+   "id": 7316,
+   "name": "国士無双",
+   "charter_diff": 17.1,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 6
+  },
+  {
+   "page": 11,
+   "group": 17.4,
+   "id": 7257,
+   "name": "国士無双",
+   "charter_diff": 16.5,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 6
+  },
+  {
+   "page": 11,
+   "group": 17.4,
+   "id": 6466,
+   "name": "国士無双",
+   "charter_diff": 16.400002,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 6
+  },
+  {
+   "page": 11,
+   "group": 17.4,
+   "id": 46694,
+   "name": "IGNITE",
+   "charter_diff": 17.0,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 2
+  },
+  {
+   "page": 11,
+   "group": 17.4,
+   "id": 46806,
+   "name": "IGNITE",
+   "charter_diff": 17.1,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 2
+  },
+  {
+   "page": 11,
+   "group": 17.4,
+   "id": 36640,
+   "name": "Pont des souvenirs",
+   "charter_diff": 17.400002,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 11,
+   "group": 17.4,
+   "id": 13510,
+   "name": "PANDORA PARADOXXX",
+   "charter_diff": 16.800003,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 6
+  },
+  {
+   "page": 11,
+   "group": 17.4,
+   "id": 35555,
+   "name": "PANDORA PARADOXXX",
+   "charter_diff": 17.3,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 6
+  },
+  {
+   "page": 11,
+   "group": 17.4,
+   "id": 30506,
+   "name": "PANDORA PARADOXXX",
+   "charter_diff": 16.8,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 6
+  },
+  {
+   "page": 11,
+   "group": 17.4,
+   "id": 20007,
+   "name": "PANDORA PARADOXXX",
+   "charter_diff": 17.300001,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 6
+  },
+  {
+   "page": 11,
+   "group": 17.4,
+   "id": 1639,
+   "name": "PANDORA PARADOXXX",
+   "charter_diff": 16.295834,
+   "ranked": true,
+   "via": "search",
+   "n_candidates": 6
+  },
+  {
+   "page": 11,
+   "group": 17.4,
+   "id": 13449,
+   "name": "PANDORA PARADOXXX",
+   "charter_diff": 16.900002,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 6
+  },
+  {
+   "page": 11,
+   "group": 17.4,
+   "id": 54802,
+   "name": "DOMiNUS_GRAiL",
+   "charter_diff": 17.0,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 11,
+   "group": 17.4,
+   "id": 23390,
+   "name": "He He He",
+   "charter_diff": 16.700003,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 5,
+   "group": 18.3,
+   "id": 40587,
+   "name": "Towards the 300",
+   "charter_diff": 18.2,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 11,
+   "group": 17.4,
+   "id": 26699,
+   "name": "Towards the 300",
+   "charter_diff": 16.800003,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 2
+  },
+  {
+   "page": 11,
+   "group": 17.4,
+   "id": 25906,
+   "name": "Villain Virus",
+   "charter_diff": 17.800007,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 5
+  },
+  {
+   "page": 11,
+   "group": 17.4,
+   "id": 66683,
+   "name": "Villain Virus",
+   "charter_diff": 17.0,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 5
+  },
+  {
+   "page": 11,
+   "group": 17.4,
+   "id": 41238,
+   "name": "Villain Virus",
+   "charter_diff": 16.400002,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 5
+  },
+  {
+   "page": 11,
+   "group": 17.4,
+   "id": 32272,
+   "name": "Villain Virus",
+   "charter_diff": 16.2,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 5
+  },
+  {
+   "page": 11,
+   "group": 17.4,
+   "id": 32035,
+   "name": "Villain Virus",
+   "charter_diff": 16.2,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 5
+  },
+  {
+   "page": 11,
+   "group": 17.3,
+   "id": 53460,
+   "name": "Queen Aluett -女王アルエット-",
+   "charter_diff": 17.400002,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 11,
+   "group": 17.3,
+   "id": 50089,
+   "name": "怪獣になりたい",
+   "charter_diff": 17.400002,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 3
+  },
+  {
+   "page": 7,
+   "group": 18.1,
+   "id": 60780,
+   "name": "怪獣になりたい",
+   "charter_diff": 18.0,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 2
+  },
+  {
+   "page": 11,
+   "group": 17.3,
+   "id": 50348,
+   "name": "怪獣になりたい",
+   "charter_diff": 16.400003,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 3
+  },
+  {
+   "page": 11,
+   "group": 17.3,
+   "id": 74407,
+   "name": "One of Us",
+   "charter_diff": 17.500002,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 11,
+   "group": 17.3,
+   "id": 47552,
+   "name": "Immaculate",
+   "charter_diff": 16.1,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 6
+  },
+  {
+   "page": 11,
+   "group": 17.3,
+   "id": 15129,
+   "name": "To：Be Continued",
+   "charter_diff": 16.6,
+   "ranked": true,
+   "via": "search",
+   "n_candidates": 4
+  },
+  {
+   "page": 11,
+   "group": 17.3,
+   "id": 73599,
+   "name": "Revelation",
+   "charter_diff": 17.0,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 2
+  },
+  {
+   "page": 11,
+   "group": 17.3,
+   "id": 27288,
+   "name": "Revelation",
+   "charter_diff": 16.300001,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 2
+  },
+  {
+   "page": 11,
+   "group": 17.3,
+   "id": 21356,
+   "name": "PUPA",
+   "charter_diff": 16.500002,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 3
+  },
+  {
+   "page": 11,
+   "group": 17.3,
+   "id": 65413,
+   "name": "PUPA",
+   "charter_diff": 17.4,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 3
+  },
+  {
+   "page": 11,
+   "group": 17.3,
+   "id": 17382,
+   "name": "PUPA",
+   "charter_diff": 16.500002,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 3
+  },
+  {
+   "page": 11,
+   "group": 17.3,
+   "id": 35134,
+   "name": "Broken Conviction",
+   "charter_diff": 17.1,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 2
+  },
+  {
+   "page": 11,
+   "group": 17.3,
+   "id": 42046,
+   "name": "Broken Conviction",
+   "charter_diff": 16.2,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 2
+  },
+  {
+   "page": 11,
+   "group": 17.3,
+   "id": 68007,
+   "name": "Fragments of You",
+   "charter_diff": 17.2,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 13,
+   "group": 17.0,
+   "id": 42846,
+   "name": "World's end loneliness",
+   "charter_diff": 16.900002,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 5
+  },
+  {
+   "page": 11,
+   "group": 17.3,
+   "id": 66686,
+   "name": "World's end loneliness",
+   "charter_diff": 18.0,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 3
+  },
+  {
+   "page": 13,
+   "group": 17.0,
+   "id": 41877,
+   "name": "World's end loneliness",
+   "charter_diff": 16.2,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 5
+  },
+  {
+   "page": 11,
+   "group": 17.3,
+   "id": 49005,
+   "name": "Archidoxen",
+   "charter_diff": 17.300001,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 7
+  },
+  {
+   "page": 11,
+   "group": 17.3,
+   "id": 78428,
+   "name": "Archidoxen",
+   "charter_diff": 17.9,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 7
+  },
+  {
+   "page": 11,
+   "group": 17.3,
+   "id": 77977,
+   "name": "Archidoxen",
+   "charter_diff": 17.300001,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 7
+  },
+  {
+   "page": 11,
+   "group": 17.3,
+   "id": 48952,
+   "name": "Archidoxen",
+   "charter_diff": 16.499998,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 7
+  },
+  {
+   "page": 11,
+   "group": 17.3,
+   "id": 51630,
+   "name": "Archidoxen",
+   "charter_diff": 17.1,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 7
+  },
+  {
+   "page": 11,
+   "group": 17.3,
+   "id": 49206,
+   "name": "Archidoxen",
+   "charter_diff": 17.5,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 7
+  },
+  {
+   "page": 11,
+   "group": 17.3,
+   "id": 48813,
+   "name": "Archidoxen",
+   "charter_diff": 17.400002,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 7
+  },
+  {
+   "page": 11,
+   "group": 17.3,
+   "id": 27148,
+   "name": "Error Code (VIP Mix)",
+   "charter_diff": 16.7,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 2
+  },
+  {
+   "page": 11,
+   "group": 17.3,
+   "id": 41299,
+   "name": "Error Code(VIP Mix)",
+   "charter_diff": 16.2,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 2
+  },
+  {
+   "page": 11,
+   "group": 17.3,
+   "id": 42204,
+   "name": "Initial Light",
+   "charter_diff": 17.1,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 11,
+   "group": 17.3,
+   "id": 42983,
+   "name": "ouroboros -twin stroke of the end-",
+   "charter_diff": 17.300001,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 2
+  },
+  {
+   "page": 11,
+   "group": 17.3,
+   "id": 12132,
+   "name": "ouroboros -twin stroke of the end-",
+   "charter_diff": 16.2,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 2
+  },
+  {
+   "page": 6,
+   "group": 18.2,
+   "id": 25779,
+   "name": "Staring at star",
+   "charter_diff": 18.000002,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 6,
+   "group": 18.2,
+   "id": 65417,
+   "name": "caesura.",
+   "charter_diff": 18.0,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 6,
+   "group": 18.2,
+   "id": 46563,
+   "name": "Infinity Heaven",
+   "charter_diff": 18.000004,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 4
+  },
+  {
+   "page": 6,
+   "group": 18.2,
+   "id": 51669,
+   "name": "Infinity Heaven",
+   "charter_diff": 17.300001,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 4
+  },
+  {
+   "page": 6,
+   "group": 18.2,
+   "id": 48648,
+   "name": "Infinity Heaven",
+   "charter_diff": 17.6,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 4
+  },
+  {
+   "page": 6,
+   "group": 18.2,
+   "id": 6258,
+   "name": "Infinity Heaven",
+   "charter_diff": 17.0,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 4
+  },
+  {
+   "page": 6,
+   "group": 18.2,
+   "id": 66968,
+   "name": "Stellaria",
+   "charter_diff": 18.1,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 6,
+   "group": 18.2,
+   "id": 47001,
+   "name": "Submerged City",
+   "charter_diff": 17.7,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 2
+  },
+  {
+   "page": 6,
+   "group": 18.2,
+   "id": 46228,
+   "name": "Submerged City",
+   "charter_diff": 18.000004,
+   "ranked": true,
+   "via": "search",
+   "n_candidates": 2
+  },
+  {
+   "page": 6,
+   "group": 18.2,
+   "id": 44693,
+   "name": "neu",
+   "charter_diff": 18.0,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 6,
+   "group": 18.2,
+   "id": 52482,
+   "name": "Sphalerite",
+   "charter_diff": 18.0,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 4
+  },
+  {
+   "page": 12,
+   "group": 17.2,
+   "id": 51028,
+   "name": "Sphalerite",
+   "charter_diff": 17.2,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 7
+  },
+  {
+   "page": 12,
+   "group": 17.2,
+   "id": 47929,
+   "name": "Sphalerite",
+   "charter_diff": 17.0,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 7
+  },
+  {
+   "page": 12,
+   "group": 17.2,
+   "id": 34989,
+   "name": "Sphalerite",
+   "charter_diff": 17.300001,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 7
+  },
+  {
+   "page": 6,
+   "group": 18.2,
+   "id": 63894,
+   "name": "さよなら異世界の旅",
+   "charter_diff": 18.0,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 6,
+   "group": 18.2,
+   "id": 77340,
+   "name": "せかいから____がきえるとき",
+   "charter_diff": 17.000004,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 4
+  },
+  {
+   "page": 6,
+   "group": 18.2,
+   "id": 73521,
+   "name": "せかいから____がきえるとき",
+   "charter_diff": 17.9,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 4
+  },
+  {
+   "page": 6,
+   "group": 18.2,
+   "id": 71022,
+   "name": "せかいから____がきえるとき",
+   "charter_diff": 17.0,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 4
+  },
+  {
+   "page": 6,
+   "group": 18.2,
+   "id": 31976,
+   "name": "せかいから____がきえるとき",
+   "charter_diff": 17.2,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 4
+  },
+  {
+   "page": 6,
+   "group": 18.2,
+   "id": 27336,
+   "name": "Sadalmelik",
+   "charter_diff": 18.100004,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 6,
+   "group": 18.2,
+   "id": 57417,
+   "name": "SUPER EMULATOR",
+   "charter_diff": 18.500002,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 6,
+   "group": 18.2,
+   "id": 59137,
+   "name": "Collapse Of Ego",
+   "charter_diff": 18.2,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 6,
+   "group": 18.2,
+   "id": 67529,
+   "name": "Thank you for playing",
+   "charter_diff": 17.0,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 4
+  },
+  {
+   "page": 6,
+   "group": 18.2,
+   "id": 56637,
+   "name": "THANK YOU FOR PLAYING",
+   "charter_diff": 19.0,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 4
+  },
+  {
+   "page": 6,
+   "group": 18.2,
+   "id": 16399,
+   "name": "Thank you for playing",
+   "charter_diff": 19.0,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 4
+  },
+  {
+   "page": 6,
+   "group": 18.2,
+   "id": 16380,
+   "name": "Thank you for playing",
+   "charter_diff": 17.800001,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 4
+  },
+  {
+   "page": 9,
+   "group": 17.8,
+   "id": 67817,
+   "name": "siren's eye",
+   "charter_diff": 17.700006,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 3
+  },
+  {
+   "page": 9,
+   "group": 17.8,
+   "id": 41234,
+   "name": "siren's eye",
+   "charter_diff": 17.600002,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 3
+  },
+  {
+   "page": 7,
+   "group": 18.1,
+   "id": 32622,
+   "name": "MixxioN",
+   "charter_diff": 18.00001,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 7,
+   "group": 18.1,
+   "id": 24851,
+   "name": "DiSANiMATE",
+   "charter_diff": 16.900003,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 7,
+   "group": 18.1,
+   "id": 24882,
+   "name": "POLYBIUS GB SPEEDRUN -Glitchless 100% WR in 0:03:57-",
+   "charter_diff": 17.1,
+   "ranked": true,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 7,
+   "group": 18.1,
+   "id": 52649,
+   "name": "CALAMITY RHAPSODY",
+   "charter_diff": 17.0,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 7,
+   "group": 18.1,
+   "id": 41242,
+   "name": "Apollo",
+   "charter_diff": 18.0,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 4
+  },
+  {
+   "page": 9,
+   "group": 17.8,
+   "id": 33175,
+   "name": "Apollo",
+   "charter_diff": 17.700006,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 5
+  },
+  {
+   "page": 9,
+   "group": 17.8,
+   "id": 37216,
+   "name": "Apollo",
+   "charter_diff": 17.0,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 5
+  },
+  {
+   "page": 7,
+   "group": 18.1,
+   "id": 18604,
+   "name": "Apollo",
+   "charter_diff": 18.000004,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 4
+  },
+  {
+   "page": 7,
+   "group": 18.1,
+   "id": 26405,
+   "name": "Period.",
+   "charter_diff": 17.900003,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 12,
+   "group": 17.1,
+   "id": 62470,
+   "name": "星降る夜と一輪の花",
+   "charter_diff": 17.0,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 3
+  },
+  {
+   "page": 7,
+   "group": 18.1,
+   "id": 69901,
+   "name": "星降る夜と一輪の花",
+   "charter_diff": 18.0,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 2
+  },
+  {
+   "page": 7,
+   "group": 18.1,
+   "id": 57623,
+   "name": "Essence",
+   "charter_diff": 16.900003,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 7,
+   "group": 18.1,
+   "id": 75944,
+   "name": "Never Say Goodbye",
+   "charter_diff": 18.0,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 2
+  },
+  {
+   "page": 7,
+   "group": 18.1,
+   "id": 75406,
+   "name": "Never Say Goodbye",
+   "charter_diff": 18.0,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 2
+  },
+  {
+   "page": 7,
+   "group": 18.1,
+   "id": 285,
+   "name": "Quietus Ray",
+   "charter_diff": 17.100004,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 7,
+   "group": 18.1,
+   "id": 52262,
+   "name": "Limen",
+   "charter_diff": 18.0,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 7,
+   "group": 18.1,
+   "id": 6956,
+   "name": "Blackbird",
+   "charter_diff": 18.100004,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 7,
+   "group": 18.1,
+   "id": 49570,
+   "name": "What's up? Pop! (tpz Overcute Remix)",
+   "charter_diff": 18.5,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 5,
+   "group": 18.3,
+   "id": 5579,
+   "name": "Crazy Tek",
+   "charter_diff": 18.000008,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 5,
+   "group": 18.3,
+   "id": 51202,
+   "name": "LiFE Garden(1.05x)",
+   "charter_diff": 18.0,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 2
+  },
+  {
+   "page": 5,
+   "group": 18.3,
+   "id": 52502,
+   "name": "LiFE Garden(Extended Mix)",
+   "charter_diff": 17.1,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 2
+  },
+  {
+   "page": 5,
+   "group": 18.3,
+   "id": 63466,
+   "name": "Upload Your Mind::Download My Soul",
+   "charter_diff": 18.000004,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 2
+  },
+  {
+   "page": 5,
+   "group": 18.3,
+   "id": 24217,
+   "name": "Upload Your Mind ::Download My Soul ",
+   "charter_diff": 17.1,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 2
+  },
+  {
+   "page": 5,
+   "group": 18.3,
+   "id": 56717,
+   "name": "Break the Speakers",
+   "charter_diff": 18.2,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 2
+  },
+  {
+   "page": 5,
+   "group": 18.3,
+   "id": 57951,
+   "name": "Break",
+   "charter_diff": 17.9,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 2
+  },
+  {
+   "page": 5,
+   "group": 18.3,
+   "id": 77471,
+   "name": "Sound Chimera",
+   "charter_diff": 18.2,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 5,
+   "group": 18.3,
+   "id": 35793,
+   "name": "Fracture Temporelle",
+   "charter_diff": 17.900003,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 5,
+   "group": 18.3,
+   "id": 26705,
+   "name": "Hypervelocity",
+   "charter_diff": 17.2,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 5,
+   "group": 18.3,
+   "id": 31301,
+   "name": "Traxxendenza",
+   "charter_diff": 17.2,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 2
+  },
+  {
+   "page": 5,
+   "group": 18.3,
+   "id": 66643,
+   "name": "it brings back memories. though there was nothing in those days.",
+   "charter_diff": 18.700003,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 2
+  },
+  {
+   "page": 5,
+   "group": 18.3,
+   "id": 69170,
+   "name": "it brings back memories. though there was nothing in those days, \"nothingness\" was still there.",
+   "charter_diff": 17.500002,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 2
+  },
+  {
+   "page": 5,
+   "group": 18.3,
+   "id": 16225,
+   "name": "Unlimited Hyperlink ",
+   "charter_diff": 17.2,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 5,
+   "group": 18.3,
+   "id": 66995,
+   "name": "分からない",
+   "charter_diff": 18.2,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 5,
+   "group": 18.3,
+   "id": 43184,
+   "name": "ディスコルディア",
+   "charter_diff": 18.2,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 5,
+   "group": 18.3,
+   "id": 52322,
+   "name": "BF2014",
+   "charter_diff": 18.0,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 5,
+   "group": 18.3,
+   "id": 23735,
+   "name": "Rite of Ascendancy",
+   "charter_diff": 18.100004,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 5,
+   "group": 18.3,
+   "id": 19228,
+   "name": "すべてが幻になった後で",
+   "charter_diff": 18.500006,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 5,
+   "group": 18.3,
+   "id": 27157,
+   "name": "Re: End of a Dream",
+   "charter_diff": 17.2,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 5
+  },
+  {
+   "page": 5,
+   "group": 18.3,
+   "id": 53338,
+   "name": "Re:End of a Dream",
+   "charter_diff": 17.2,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 5
+  },
+  {
+   "page": 5,
+   "group": 18.3,
+   "id": 50731,
+   "name": "Re：End of a Dream",
+   "charter_diff": 17.100004,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 5
+  },
+  {
+   "page": 5,
+   "group": 18.3,
+   "id": 37585,
+   "name": "Re：End of a Dream",
+   "charter_diff": 17.1,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 5
+  },
+  {
+   "page": 5,
+   "group": 18.3,
+   "id": 24406,
+   "name": "Re:End of a Dream",
+   "charter_diff": 17.600002,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 5
+  },
+  {
+   "page": 12,
+   "group": 17.2,
+   "id": 39786,
+   "name": "Greeting Into Abysschaos",
+   "charter_diff": 17.0,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 3
+  },
+  {
+   "page": 12,
+   "group": 17.2,
+   "id": 34918,
+   "name": "Greeting into Abysschaos",
+   "charter_diff": 17.7,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 3
+  },
+  {
+   "page": 12,
+   "group": 17.2,
+   "id": 29578,
+   "name": "Birds of Plague",
+   "charter_diff": 17.100004,
+   "ranked": true,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 12,
+   "group": 17.2,
+   "id": 28484,
+   "name": "DIZTO HOUZE",
+   "charter_diff": 17.2,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 12,
+   "group": 17.2,
+   "id": 59292,
+   "name": "Oracle",
+   "charter_diff": 17.2,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 3
+  },
+  {
+   "page": 12,
+   "group": 17.2,
+   "id": 77373,
+   "name": "Oracle",
+   "charter_diff": 16.2,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 3
+  },
+  {
+   "page": 12,
+   "group": 17.2,
+   "id": 15411,
+   "name": "Oracle",
+   "charter_diff": 16.5,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 3
+  },
+  {
+   "page": 12,
+   "group": 17.2,
+   "id": 52573,
+   "name": "POTENTIAL",
+   "charter_diff": 17.1,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 12,
+   "group": 17.2,
+   "id": 24757,
+   "name": "The Final EndGame",
+   "charter_diff": 17.300005,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 2
+  },
+  {
+   "page": 12,
+   "group": 17.2,
+   "id": 25648,
+   "name": "The Final EndGame",
+   "charter_diff": 17.600002,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 2
+  },
+  {
+   "page": 12,
+   "group": 17.2,
+   "id": 34868,
+   "name": "Icyxis ~True Ending~",
+   "charter_diff": 17.300001,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 12,
+   "group": 17.2,
+   "id": 35366,
+   "name": "Sphalerite",
+   "charter_diff": 16.0,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 7
+  },
+  {
+   "page": 12,
+   "group": 17.2,
+   "id": 39417,
+   "name": "Sphalerite",
+   "charter_diff": 16.300001,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 7
+  },
+  {
+   "page": 12,
+   "group": 17.2,
+   "id": 55970,
+   "name": "Sphalerite",
+   "charter_diff": 16.300001,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 7
+  },
+  {
+   "page": 12,
+   "group": 17.2,
+   "id": 7116,
+   "name": "Necroxus",
+   "charter_diff": 16.0,
+   "ranked": true,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 12,
+   "group": 17.2,
+   "id": 71351,
+   "name": "Fatum Cantabile",
+   "charter_diff": 16.300001,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 2
+  },
+  {
+   "page": 12,
+   "group": 17.2,
+   "id": 72277,
+   "name": "Fatum Cantabile",
+   "charter_diff": 17.0,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 2
+  },
+  {
+   "page": 12,
+   "group": 17.1,
+   "id": 25193,
+   "name": "Ultimate Force",
+   "charter_diff": 16.499987,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 8
+  },
+  {
+   "page": 12,
+   "group": 17.1,
+   "id": 26525,
+   "name": "Ultimate Force",
+   "charter_diff": 15.900003,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 8
+  },
+  {
+   "page": 12,
+   "group": 17.1,
+   "id": 24429,
+   "name": "Ultimate Force",
+   "charter_diff": 16.600002,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 8
+  },
+  {
+   "page": 12,
+   "group": 17.1,
+   "id": 67781,
+   "name": "Silentphobia",
+   "charter_diff": 17.0,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 2
+  },
+  {
+   "page": 12,
+   "group": 17.1,
+   "id": 21833,
+   "name": "Silentphobia",
+   "charter_diff": 17.000004,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 2
+  },
+  {
+   "page": 12,
+   "group": 17.1,
+   "id": 42274,
+   "name": "Cross Fire（Extended Mix）",
+   "charter_diff": 17.400002,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 2
+  },
+  {
+   "page": 12,
+   "group": 17.1,
+   "id": 46201,
+   "name": "CrossFire Hard Arrange",
+   "charter_diff": 16.0,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 2
+  },
+  {
+   "page": 12,
+   "group": 17.1,
+   "id": 43840,
+   "name": "星降る夜と一輪の花",
+   "charter_diff": 16.800003,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 3
+  },
+  {
+   "page": 12,
+   "group": 17.1,
+   "id": 69413,
+   "name": "熱風",
+   "charter_diff": 17.300001,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 12,
+   "group": 17.1,
+   "id": 71642,
+   "name": "Delete The World",
+   "charter_diff": 16.0,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 12,
+   "group": 17.1,
+   "id": 76012,
+   "name": "Le Porteur d'Ombre",
+   "charter_diff": 16.400002,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 13
+  },
+  {
+   "page": 12,
+   "group": 17.1,
+   "id": 54169,
+   "name": "Le Porteur d'Ombre",
+   "charter_diff": 16.0,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 13
+  },
+  {
+   "page": 12,
+   "group": 17.1,
+   "id": 9452,
+   "name": "Le Porteur d'Ombre",
+   "charter_diff": 16.400005,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 13
+  },
+  {
+   "page": 12,
+   "group": 17.1,
+   "id": 25009,
+   "name": "Le Porteur d'Ombre",
+   "charter_diff": 15.900003,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 13
+  },
+  {
+   "page": 12,
+   "group": 17.1,
+   "id": 713,
+   "name": "Le Porteur d'Ombre",
+   "charter_diff": 15.94,
+   "ranked": true,
+   "via": "search",
+   "n_candidates": 13
+  },
+  {
+   "page": 12,
+   "group": 17.1,
+   "id": 11499,
+   "name": "Le Porteur d'Ombre",
+   "charter_diff": 16.0,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 13
+  },
+  {
+   "page": 12,
+   "group": 17.1,
+   "id": 11366,
+   "name": "Le Porteur d'Ombre",
+   "charter_diff": 16.500002,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 13
+  },
+  {
+   "page": 12,
+   "group": 17.1,
+   "id": 1025,
+   "name": "Le Porteur d'Ombre",
+   "charter_diff": 16.0,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 13
+  },
+  {
+   "page": 12,
+   "group": 17.1,
+   "id": 40161,
+   "name": "KAEDE",
+   "charter_diff": 17.0,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 12,
+   "group": 17.1,
+   "id": 52086,
+   "name": "悠久の翼 (ef - the first tale.より)",
+   "charter_diff": 17.600002,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 12,
+   "group": 17.1,
+   "id": 33246,
+   "name": "Super Universe(Knighthood Remix)",
+   "charter_diff": 16.6,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 4
+  },
+  {
+   "page": 12,
+   "group": 17.1,
+   "id": 74362,
+   "name": "Super Universe (Knighthood Remix)",
+   "charter_diff": 16.300001,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 4
+  },
+  {
+   "page": 12,
+   "group": 17.1,
+   "id": 25888,
+   "name": "Super Universe (Knighthood remix)",
+   "charter_diff": 16.0,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 4
+  },
+  {
+   "page": 12,
+   "group": 17.1,
+   "id": 11625,
+   "name": "Super Universe (Knighthood Remix)",
+   "charter_diff": 16.300001,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 4
+  },
+  {
+   "page": 12,
+   "group": 17.1,
+   "id": 45346,
+   "name": "Invisible Frenzy",
+   "charter_diff": 17.1,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 5
+  },
+  {
+   "page": 12,
+   "group": 17.1,
+   "id": 57379,
+   "name": "Invisible Frenzy",
+   "charter_diff": 16.300001,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 5
+  },
+  {
+   "page": 12,
+   "group": 17.1,
+   "id": 54055,
+   "name": "Invisible Frenzy",
+   "charter_diff": 17.100004,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 5
+  },
+  {
+   "page": 12,
+   "group": 17.1,
+   "id": 27008,
+   "name": "Invisible Frenzy",
+   "charter_diff": 15.900003,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 5
+  },
+  {
+   "page": 12,
+   "group": 17.1,
+   "id": 19317,
+   "name": "Invisible Frenzy",
+   "charter_diff": 16.600002,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 5
+  },
+  {
+   "page": 12,
+   "group": 17.1,
+   "id": 52549,
+   "name": "Find You (Edit)",
+   "charter_diff": 17.2,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 2
+  },
+  {
+   "page": 12,
+   "group": 17.1,
+   "id": 4187,
+   "name": "Find You",
+   "charter_diff": 16.2,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 2
+  },
+  {
+   "page": 12,
+   "group": 17.1,
+   "id": 37162,
+   "name": "Dextroy",
+   "charter_diff": 16.5,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 2
+  },
+  {
+   "page": 2,
+   "group": 18.7,
+   "id": 48658,
+   "name": "Future Downloader",
+   "charter_diff": 18.6,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 2,
+   "group": 18.7,
+   "id": 46348,
+   "name": "ANTINEUTRINO WITCHCRAFT",
+   "charter_diff": 18.2,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 2,
+   "group": 18.7,
+   "id": 77421,
+   "name": "Project Re:incarnation",
+   "charter_diff": 18.700003,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 2,
+   "group": 18.7,
+   "id": 73339,
+   "name": "Silentphobia",
+   "charter_diff": 18.600002,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 2,
+   "group": 18.7,
+   "id": 51397,
+   "name": "Gray Heaven",
+   "charter_diff": 18.400002,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 2,
+   "group": 18.7,
+   "id": 37382,
+   "name": "Unleashed World",
+   "charter_diff": 17.800003,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 2,
+   "group": 18.6,
+   "id": 50347,
+   "name": "Flower Forever",
+   "charter_diff": 18.0,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 2,
+   "group": 18.6,
+   "id": 47207,
+   "name": "Dispersive Corruption",
+   "charter_diff": 18.0,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 2,
+   "group": 18.6,
+   "id": 75521,
+   "name": "Kizuato",
+   "charter_diff": 18.5,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 2,
+   "group": 18.6,
+   "id": 45727,
+   "name": "Total Eclipse of The Sun",
+   "charter_diff": 18.0,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 2
+  },
+  {
+   "page": 2,
+   "group": 18.6,
+   "id": 45759,
+   "name": "Total eclipse of the sun",
+   "charter_diff": 18.7,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 2
+  },
+  {
+   "page": 2,
+   "group": 18.6,
+   "id": 62706,
+   "name": "Primordial Complex",
+   "charter_diff": 18.600002,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 2,
+   "group": 18.6,
+   "id": 44584,
+   "name": "Ruin in Cascade",
+   "charter_diff": 18.6,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 2,
+   "group": 18.6,
+   "id": 70220,
+   "name": "八荒 ~The Glorious World~",
+   "charter_diff": 18.300001,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 2
+  },
+  {
+   "page": 2,
+   "group": 18.6,
+   "id": 70020,
+   "name": "八荒 ~The Glorious World~",
+   "charter_diff": 19.099997,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 2
+  },
+  {
+   "page": 2,
+   "group": 18.6,
+   "id": 42984,
+   "name": "Clinozoisite",
+   "charter_diff": 17.900003,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 9,
+   "group": 17.7,
+   "id": 24729,
+   "name": "九皋",
+   "charter_diff": 18.100004,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 2
+  },
+  {
+   "page": 2,
+   "group": 18.6,
+   "id": 47137,
+   "name": "LAMIA",
+   "charter_diff": 18.0,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 2,
+   "group": 18.6,
+   "id": 41236,
+   "name": "不可逆的運命ディストピア",
+   "charter_diff": 17.600002,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 2,
+   "group": 18.6,
+   "id": 39240,
+   "name": "stop-motion",
+   "charter_diff": 18.0,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 9,
+   "group": 17.8,
+   "id": 26180,
+   "name": "Apollo",
+   "charter_diff": 16.9,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 5
+  },
+  {
+   "page": 9,
+   "group": 17.8,
+   "id": 48457,
+   "name": "siren's eye",
+   "charter_diff": 16.800003,
+   "ranked": true,
+   "via": "search",
+   "n_candidates": 3
+  },
+  {
+   "page": 9,
+   "group": 17.8,
+   "id": 52897,
+   "name": "Last Resort",
+   "charter_diff": 17.800003,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 2
+  },
+  {
+   "page": 9,
+   "group": 17.8,
+   "id": 26546,
+   "name": "Last Resort",
+   "charter_diff": 17.0,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 2
+  },
+  {
+   "page": 9,
+   "group": 17.8,
+   "id": 49095,
+   "name": "KIZUNA Resolution",
+   "charter_diff": 17.2,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 3
+  },
+  {
+   "page": 9,
+   "group": 17.8,
+   "id": 40165,
+   "name": "KIZUNA Resolution",
+   "charter_diff": 17.400002,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 3
+  },
+  {
+   "page": 9,
+   "group": 17.8,
+   "id": 36514,
+   "name": "KIZUNA resolution",
+   "charter_diff": 17.500002,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 3
+  },
+  {
+   "page": 9,
+   "group": 17.8,
+   "id": 51238,
+   "name": "eden",
+   "charter_diff": 17.0,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 9,
+   "group": 17.8,
+   "id": 16002,
+   "name": "Latent Kingdom",
+   "charter_diff": 16.7,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 3
+  },
+  {
+   "page": 9,
+   "group": 17.8,
+   "id": 44261,
+   "name": "Latent Kingdom",
+   "charter_diff": 16.900002,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 3
+  },
+  {
+   "page": 9,
+   "group": 17.8,
+   "id": 43903,
+   "name": "Latent Kingdom",
+   "charter_diff": 17.8,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 3
+  },
+  {
+   "page": 9,
+   "group": 17.8,
+   "id": 1800,
+   "name": "Wolves Standing Towards Enemies",
+   "charter_diff": 18.000004,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 3
+  },
+  {
+   "page": 9,
+   "group": 17.8,
+   "id": 77972,
+   "name": "Wolves Standing Towards Enemies",
+   "charter_diff": 17.0,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 3
+  },
+  {
+   "page": 9,
+   "group": 17.8,
+   "id": 44223,
+   "name": "Wolves Standing Towards Enemies",
+   "charter_diff": 16.800003,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 3
+  },
+  {
+   "page": 9,
+   "group": 17.8,
+   "id": 44985,
+   "name": "the Tower of NIRV(ニルヴの心臓)",
+   "charter_diff": 17.500002,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 9,
+   "group": 17.7,
+   "id": 24772,
+   "name": "[World_Collapse]",
+   "charter_diff": 16.900002,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 9,
+   "group": 17.7,
+   "id": 42722,
+   "name": "Cyber Solitude",
+   "charter_diff": 17.500002,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 9,
+   "group": 17.7,
+   "id": 9198,
+   "name": "Angel's Salad",
+   "charter_diff": 16.9,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 9,
+   "group": 17.7,
+   "id": 19216,
+   "name": "九皋",
+   "charter_diff": 16.900003,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 2
+  },
+  {
+   "page": 9,
+   "group": 17.7,
+   "id": 18907,
+   "name": "GALACTIC WARZONE",
+   "charter_diff": 17.0,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 3
+  },
+  {
+   "page": 9,
+   "group": 17.7,
+   "id": 23281,
+   "name": "GALACTIC WARZONE",
+   "charter_diff": 16.800003,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 3
+  },
+  {
+   "page": 9,
+   "group": 17.7,
+   "id": 22789,
+   "name": "GALACTIC WARZONE",
+   "charter_diff": 17.300001,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 3
+  },
+  {
+   "page": 9,
+   "group": 17.7,
+   "id": 56981,
+   "name": "Asphodelium_Eschatologia",
+   "charter_diff": 17.0,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 9,
+   "group": 17.7,
+   "id": 72445,
+   "name": "PlayStation 8",
+   "charter_diff": 17.700003,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 9,
+   "group": 17.7,
+   "id": 37121,
+   "name": "Vengeance of the \"V\"",
+   "charter_diff": 17.400002,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 2
+  },
+  {
+   "page": 9,
+   "group": 17.7,
+   "id": 36954,
+   "name": "Vengeance of the “V”",
+   "charter_diff": 17.2,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 2
+  },
+  {
+   "page": 9,
+   "group": 17.7,
+   "id": 46434,
+   "name": "Oceanus",
+   "charter_diff": 17.300001,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 9,
+   "group": 17.7,
+   "id": 73223,
+   "name": "Tiny Fate",
+   "charter_diff": 17.700003,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 13,
+   "group": 17.0,
+   "id": 44862,
+   "name": "Alpharise",
+   "charter_diff": 17.1,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 13,
+   "group": 17.0,
+   "id": 42178,
+   "name": "Dance in Silence",
+   "charter_diff": 17.0,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 13,
+   "group": 17.0,
+   "id": 72663,
+   "name": "Anamnesis",
+   "charter_diff": 17.0,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 13,
+   "group": 17.0,
+   "id": 71994,
+   "name": "c.s.q.n. (2026 Remaster)",
+   "charter_diff": 17.0,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 4
+  },
+  {
+   "page": 13,
+   "group": 17.0,
+   "id": 47023,
+   "name": "c.s.q.n.",
+   "charter_diff": 16.600002,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 4
+  },
+  {
+   "page": 13,
+   "group": 17.0,
+   "id": 39597,
+   "name": "c.s.q.n",
+   "charter_diff": 16.300005,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 4
+  },
+  {
+   "page": 13,
+   "group": 17.0,
+   "id": 23114,
+   "name": "c.s.q.n.",
+   "charter_diff": 16.1,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 4
+  },
+  {
+   "page": 13,
+   "group": 17.0,
+   "id": 45445,
+   "name": "インドア系ならトラックメイカー",
+   "charter_diff": 17.0,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 13,
+   "group": 17.0,
+   "id": 29051,
+   "name": "アポカリプスに反逆の焔を焚べろ",
+   "charter_diff": 17.500004,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 2
+  },
+  {
+   "page": 13,
+   "group": 17.0,
+   "id": 28786,
+   "name": "アポカリプスに反逆の焔を焚べろ",
+   "charter_diff": 16.800001,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 2
+  },
+  {
+   "page": 13,
+   "group": 17.0,
+   "id": 25019,
+   "name": "sic transit gloria mundi",
+   "charter_diff": 16.500002,
+   "ranked": true,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 13,
+   "group": 17.0,
+   "id": 71707,
+   "name": "Resistance",
+   "charter_diff": 17.400002,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 13,
+   "group": 17.0,
+   "id": 37932,
+   "name": "きゅうくらりん",
+   "charter_diff": 17.0,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 3
+  },
+  {
+   "page": 13,
+   "group": 17.0,
+   "id": 74054,
+   "name": "きゅうくらりん",
+   "charter_diff": 17.800001,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 3
+  },
+  {
+   "page": 13,
+   "group": 17.0,
+   "id": 40538,
+   "name": "きゅうくらりん",
+   "charter_diff": 16.300001,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 3
+  },
+  {
+   "page": 13,
+   "group": 17.0,
+   "id": 1952,
+   "name": "World's end loneliness",
+   "charter_diff": 16.0,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 5
+  },
+  {
+   "page": 13,
+   "group": 17.0,
+   "id": 5840,
+   "name": "World's end loneliness",
+   "charter_diff": 16.0,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 5
+  },
+  {
+   "page": 13,
+   "group": 17.0,
+   "id": 50174,
+   "name": "Loki",
+   "charter_diff": 17.300001,
+   "ranked": false,
+   "via": "search",
+   "n_candidates": 1
+  },
+  {
+   "page": 13,
+   "group": 17.0,
+   "id": 43885,
+   "name": "クウルッコ",
+   "charter_diff": 16.900003,
+   "ranked": true,
+   "via": "search",
+   "n_candidates": 1
+  }
+ ],
+ "conflicts": [
+  {
+   "id": 44265,
+   "name": "Ragnarok",
+   "groups": [
+    18.6,
+    19.1
+   ]
+  },
+  {
+   "id": 71230,
+   "name": "HYPER MEMORIES",
+   "groups": [
+    18.4,
+    19.0
+   ]
+  },
+  {
+   "id": 50590,
+   "name": "HYPER MEMORIES",
+   "groups": [
+    18.4,
+    19.0
+   ]
+  },
+  {
+   "id": 47448,
+   "name": "Vicious Mockery",
+   "groups": [
+    18.5,
+    19.0
+   ]
+  },
+  {
+   "id": 62779,
+   "name": "Greeting into Abysschaos",
+   "groups": [
+    17.2,
+    19.0
+   ]
+  },
+  {
+   "id": 52547,
+   "name": "Traxxendenza",
+   "groups": [
+    18.3,
+    18.9
+   ]
+  },
+  {
+   "id": 42058,
+   "name": "Parallel Universe Shifter",
+   "groups": [
+    18.1,
+    18.8
+   ]
+  },
+  {
+   "id": 36844,
+   "name": "Parallel Universe Shifter",
+   "groups": [
+    18.1,
+    18.8
+   ]
+  },
+  {
+   "id": 15183,
+   "name": "Parallel Universe Shifter",
+   "groups": [
+    18.1,
+    18.8
+   ]
+  },
+  {
+   "id": 34208,
+   "name": "Echoes of Memoria",
+   "groups": [
+    18.3,
+    18.5
+   ]
+  },
+  {
+   "id": 49513,
+   "name": "Echoes of Memoria",
+   "groups": [
+    18.3,
+    18.5
+   ]
+  },
+  {
+   "id": 39178,
+   "name": "Echoes of Memoria",
+   "groups": [
+    18.3,
+    18.5
+   ]
+  },
+  {
+   "id": 54491,
+   "name": "Avantgarde",
+   "groups": [
+    18.4,
+    18.5
+   ]
+  },
+  {
+   "id": 37500,
+   "name": "Avantgarde",
+   "groups": [
+    18.4,
+    18.5
+   ]
+  },
+  {
+   "id": 44085,
+   "name": "Möbius",
+   "groups": [
+    18.4,
+    18.5
+   ]
+  },
+  {
+   "id": 64705,
+   "name": "MEGALOVANIA(Camellia Remix)",
+   "groups": [
+    17.6,
+    18.5
+   ]
+  },
+  {
+   "id": 68240,
+   "name": "Calamity of the Mystic Garden : Doom",
+   "groups": [
+    17.9,
+    18.5
+   ]
+  },
+  {
+   "id": 53789,
+   "name": "Calamity of the Mystic Garden  Doom",
+   "groups": [
+    17.9,
+    18.5
+   ]
+  },
+  {
+   "id": 39595,
+   "name": "BRAVE ROAD",
+   "groups": [
+    18.4,
+    18.5
+   ]
+  },
+  {
+   "id": 75489,
+   "name": "BRAVE:ROAD",
+   "groups": [
+    18.4,
+    18.5
+   ]
+  },
+  {
+   "id": 43988,
+   "name": "Waking Shadows (feat. Eili)",
+   "groups": [
+    18.2,
+    18.5
+   ]
+  },
+  {
+   "id": 40384,
+   "name": "ULTiMATE INFLATiON",
+   "groups": [
+    18.3,
+    18.5
+   ]
+  },
+  {
+   "id": 19391,
+   "name": "ULTiMATE INFLATiON",
+   "groups": [
+    18.3,
+    18.5
+   ]
+  },
+  {
+   "id": 39018,
+   "name": "DA'AT -The First Seeker of Souls-",
+   "groups": [
+    17.9,
+    18.5
+   ]
+  },
+  {
+   "id": 30514,
+   "name": "DA'AT -The First Seeker of Souls-",
+   "groups": [
+    17.9,
+    18.5
+   ]
+  },
+  {
+   "id": 52423,
+   "name": "Exit This Earth's Atomosphere",
+   "groups": [
+    18.4,
+    18.5
+   ]
+  },
+  {
+   "id": 47326,
+   "name": "Exit This Earth's Atomosphere",
+   "groups": [
+    18.4,
+    18.5
+   ]
+  },
+  {
+   "id": 31214,
+   "name": "Ultimate Force",
+   "groups": [
+    17.1,
+    17.8,
+    18.0
+   ]
+  },
+  {
+   "id": 26636,
+   "name": "Ultimate Force",
+   "groups": [
+    17.1,
+    17.8,
+    18.0
+   ]
+  },
+  {
+   "id": 52307,
+   "name": "Ultimate Force",
+   "groups": [
+    17.1,
+    17.8,
+    18.0
+   ]
+  },
+  {
+   "id": 26698,
+   "name": "Ultimate Force",
+   "groups": [
+    17.1,
+    17.8,
+    18.0
+   ]
+  },
+  {
+   "id": 25137,
+   "name": "Ultimate Force",
+   "groups": [
+    17.1,
+    17.8,
+    18.0
+   ]
+  },
+  {
+   "id": 52558,
+   "name": "To:Be Continued",
+   "groups": [
+    17.3,
+    18.0
+   ]
+  },
+  {
+   "id": 37595,
+   "name": "To : Be Continued",
+   "groups": [
+    17.3,
+    18.0
+   ]
+  },
+  {
+   "id": 65715,
+   "name": "To Be Continue",
+   "groups": [
+    17.3,
+    18.0
+   ]
+  },
+  {
+   "id": 46403,
+   "name": "Crossmythos Rhapsodia",
+   "groups": [
+    18.0,
+    18.6
+   ]
+  },
+  {
+   "id": 40981,
+   "name": "Crossmythos Rhapsodia",
+   "groups": [
+    18.0,
+    18.6
+   ]
+  },
+  {
+   "id": 73397,
+   "name": "Sendan Life(かたぎり Bootleg)",
+   "groups": [
+    17.9,
+    18.3
+   ]
+  },
+  {
+   "id": 56848,
+   "name": "Sendan Life(Katagiri Bootleg)",
+   "groups": [
+    17.9,
+    18.3
+   ]
+  },
+  {
+   "id": 52450,
+   "name": "Bathin",
+   "groups": [
+    17.5,
+    17.9
+   ]
+  },
+  {
+   "id": 7516,
+   "name": "Bathin",
+   "groups": [
+    17.5,
+    17.9
+   ]
+  },
+  {
+   "id": 11517,
+   "name": "Le Porteur d'Ombre",
+   "groups": [
+    17.1,
+    17.9,
+    18.2
+   ]
+  },
+  {
+   "id": 7328,
+   "name": "Le Porteur d'Ombre",
+   "groups": [
+    17.1,
+    17.9,
+    18.2
+   ]
+  },
+  {
+   "id": 1868,
+   "name": "Le Porteur d'Ombre",
+   "groups": [
+    17.1,
+    17.9,
+    18.2
+   ]
+  },
+  {
+   "id": 47654,
+   "name": "Le Porteur d'Ombre",
+   "groups": [
+    17.1,
+    17.9,
+    18.2
+   ]
+  },
+  {
+   "id": 17303,
+   "name": "Le Porteur d'Ombre",
+   "groups": [
+    17.1,
+    17.9
+   ]
+  },
+  {
+   "id": 44874,
+   "name": "I Wanna",
+   "groups": [
+    17.9,
+    18.2
+   ]
+  },
+  {
+   "id": 42628,
+   "name": "I Wanna",
+   "groups": [
+    17.9,
+    18.2
+   ]
+  },
+  {
+   "id": 19892,
+   "name": "Picasso",
+   "groups": [
+    17.6,
+    18.2
+   ]
+  },
+  {
+   "id": 67836,
+   "name": "GEOLOGICAL//IRRESOLUTION",
+   "groups": [
+    17.2,
+    17.6
+   ]
+  },
+  {
+   "id": 60991,
+   "name": "GEOLOGICAL//IRRESOLUTION",
+   "groups": [
+    17.2,
+    17.6
+   ]
+  },
+  {
+   "id": 49567,
+   "name": "百鬼֎夜行",
+   "groups": [
+    17.5,
+    17.6
+   ]
+  },
+  {
+   "id": 48995,
+   "name": "百鬼֎夜行",
+   "groups": [
+    17.5,
+    17.6
+   ]
+  },
+  {
+   "id": 7640,
+   "name": "Bad Elixir",
+   "groups": [
+    17.6,
+    18.2
+   ]
+  },
+  {
+   "id": 6182,
+   "name": "Bad Elixir",
+   "groups": [
+    17.6,
+    18.2
+   ]
+  },
+  {
+   "id": 52928,
+   "name": "Dreamseeker",
+   "groups": [
+    17.6,
+    17.8
+   ]
+  },
+  {
+   "id": 53317,
+   "name": "Dreamseeker",
+   "groups": [
+    17.6,
+    17.8
+   ]
+  },
+  {
+   "id": 61763,
+   "name": "MarbleBlue.",
+   "groups": [
+    17.6,
+    17.7,
+    17.8
+   ]
+  },
+  {
+   "id": 73385,
+   "name": "MarbleBlue.",
+   "groups": [
+    17.6,
+    17.7,
+    17.8
+   ]
+  },
+  {
+   "id": 53049,
+   "name": "MarbleBlue.",
+   "groups": [
+    17.6,
+    17.7,
+    17.8
+   ]
+  },
+  {
+   "id": 52982,
+   "name": "MarbleBlue.",
+   "groups": [
+    17.6,
+    17.7,
+    17.8
+   ]
+  },
+  {
+   "id": 49800,
+   "name": "MarbleBlue.",
+   "groups": [
+    17.6,
+    17.7,
+    17.8
+   ]
+  },
+  {
+   "id": 38880,
+   "name": "MarbleBlue.",
+   "groups": [
+    17.6,
+    17.7,
+    17.8
+   ]
+  },
+  {
+   "id": 19915,
+   "name": "Astaroth",
+   "groups": [
+    17.5,
+    18.4
+   ]
+  },
+  {
+   "id": 52443,
+   "name": "Immaculate",
+   "groups": [
+    17.3,
+    17.5
+   ]
+  },
+  {
+   "id": 78581,
+   "name": "Immaculate",
+   "groups": [
+    17.3,
+    17.5
+   ]
+  },
+  {
+   "id": 71201,
+   "name": "Immaculate",
+   "groups": [
+    17.3,
+    17.5
+   ]
+  },
+  {
+   "id": 53070,
+   "name": "Immaculate",
+   "groups": [
+    17.3,
+    17.5
+   ]
+  },
+  {
+   "id": 39777,
+   "name": "Immaculate",
+   "groups": [
+    17.3,
+    17.5
+   ]
+  },
+  {
+   "id": 68096,
+   "name": "Dextroy",
+   "groups": [
+    17.1,
+    18.1,
+    18.4
+   ]
+  },
+  {
+   "id": 40587,
+   "name": "Towards the 300",
+   "groups": [
+    17.4,
+    18.3
+   ]
+  },
+  {
+   "id": 50089,
+   "name": "怪獣になりたい",
+   "groups": [
+    17.3,
+    18.1
+   ]
+  },
+  {
+   "id": 60780,
+   "name": "怪獣になりたい",
+   "groups": [
+    17.3,
+    18.1
+   ]
+  },
+  {
+   "id": 42846,
+   "name": "World's end loneliness",
+   "groups": [
+    17.0,
+    17.3
+   ]
+  },
+  {
+   "id": 66686,
+   "name": "World's end loneliness",
+   "groups": [
+    17.0,
+    17.3
+   ]
+  },
+  {
+   "id": 41877,
+   "name": "World's end loneliness",
+   "groups": [
+    17.0,
+    17.3
+   ]
+  },
+  {
+   "id": 52482,
+   "name": "Sphalerite",
+   "groups": [
+    17.2,
+    18.2
+   ]
+  },
+  {
+   "id": 51028,
+   "name": "Sphalerite",
+   "groups": [
+    17.2,
+    18.2
+   ]
+  },
+  {
+   "id": 47929,
+   "name": "Sphalerite",
+   "groups": [
+    17.2,
+    18.2
+   ]
+  },
+  {
+   "id": 34989,
+   "name": "Sphalerite",
+   "groups": [
+    17.2,
+    18.2
+   ]
+  },
+  {
+   "id": 67817,
+   "name": "siren's eye",
+   "groups": [
+    17.8,
+    18.2
+   ]
+  },
+  {
+   "id": 41234,
+   "name": "siren's eye",
+   "groups": [
+    17.8,
+    18.2
+   ]
+  },
+  {
+   "id": 41242,
+   "name": "Apollo",
+   "groups": [
+    17.8,
+    18.1
+   ]
+  },
+  {
+   "id": 33175,
+   "name": "Apollo",
+   "groups": [
+    17.8,
+    18.1
+   ]
+  },
+  {
+   "id": 37216,
+   "name": "Apollo",
+   "groups": [
+    17.8,
+    18.1
+   ]
+  },
+  {
+   "id": 18604,
+   "name": "Apollo",
+   "groups": [
+    17.8,
+    18.1
+   ]
+  },
+  {
+   "id": 62470,
+   "name": "星降る夜と一輪の花",
+   "groups": [
+    17.1,
+    18.1
+   ]
+  },
+  {
+   "id": 69901,
+   "name": "星降る夜と一輪の花",
+   "groups": [
+    17.1,
+    18.1
+   ]
+  },
+  {
+   "id": 24429,
+   "name": "Ultimate Force",
+   "groups": [
+    17.1,
+    17.8
+   ]
+  },
+  {
+   "id": 24729,
+   "name": "九皋",
+   "groups": [
+    17.7,
+    18.6
+   ]
+  }
+ ],
+ "unresolved": [
+  "Atomic Disassembler",
+  "Fight Against the Past",
+  "緋ノ揺ビ",
+  "Arcana Eden",
+  "Xaleid scopX",
+  "Unlimited Hyperlink",
+  "哀愁詠歌",
+  "色を奏でた音",
+  "Aegleseeker",
+  "夢の続きに",
+  "創造宇宙旅行",
+  "Xaleid scopX",
+  "黄泉、知那眼及七循",
+  "生命力シンドローム",
+  "Infinite Strife,",
+  "DEINOS PHAINEME",
+  "Transcended Love",
+  "Aegleseeker",
+  "Xaleid scopX",
+  "雷霆神ソフトウェア",
+  "Fated Destiny",
+  "Xaleid scopX",
+  "Scarlet Death",
+  "steganography",
+  "TREMENDOUS",
+  "霊天",
+  "Melodiinig",
+  "DEINOS PHAINEME",
+  "Ethereal Realm",
+  "馳して光",
+  "Seimei no Geuya",
+  "Camellia",
+  "SuddeNDeath",
+  "King Atlantis",
+  "メモリア",
+  "瘟",
+  "NiFthel",
+  "Roqurai: Between",
+  "Xeno Gravity",
+  "Burning Star",
+  "UK",
+  "Travel with the unde",
+  "you Are NEVER Alo",
+  "Massacre",
+  "∃!XI3",
+  "Secule Seculorum",
+  "疑心共鳴",
+  "Maker",
+  "Nyaflarothep's Drea",
+  "Judgement",
+  "霊天",
+  "コスモ",
+  "創造",
+  "一刻幻夢",
+  "Existentialist",
+  "Euocator",
+  "刹那に殉ず",
+  "掬げよ銀嶺",
+  "rapHta",
+  "終の舞踏",
+  "月隣",
+  "IE=Infinity",
+  "Ars Cantabile",
+  "FKILOT",
+  "霊天",
+  "Catalinbase",
+  "selfp",
+  "崩題対火",
+  "生命力シンドローム",
+  "Siva",
+  "Qliphyshivh",
+  "AstroNotes.",
+  "Testify",
+  "Dimension Hacker",
+  "Animosify",
+  "Aegleseeker",
+  "APOCALYPSE CALL",
+  "Under Constructio",
+  "POLYXAWIA",
+  "MAXRAGE",
+  "MILLION PP",
+  "Blooming Planet",
+  "PATHFINDER",
+  "FIRST: DREAMS",
+  "雷霆神ソフトウェア",
+  "Lament Rain",
+  "Ignis",
+  "DooMeLight",
+  "Megamefleur",
+  "Fragile, Aberrant Blb",
+  "B1K0-Z3T4",
+  "Evaniscenlia",
+  "SILENT TEARS",
+  "火塵之舞",
+  "一刻の幻夢",
+  "虚光の都市より",
+  "Absolute Resignat",
+  "詰盤の皇守",
+  "幾帳の糸",
+  "レグルスリゾン",
+  "Testify",
+  "Lament Rain",
+  "Cier's Lac",
+  "ヤミナス!!",
+  "Quasar",
+  "LOOK UP",
+  "冥めめり苦し黙",
+  "Pentiment",
+  "糸まで",
+  "Designant.",
+  "NOTES RUSHI",
+  "electric homer",
+  "CX-rones",
+  "Nyaflarothep's Drea",
+  "FINAL:PHASE",
+  "ANU",
+  "Exifium",
+  "業 -善なる神のこ",
+  "VorpAlize",
+  "刹那に殉ず",
+  "pianor",
+  "Amatsukami",
+  "Undying Macula",
+  "Emptiness",
+  "Testify",
+  "Vigiléa's Destiny",
+  "Atoh:Yinometa_a",
+  "Per Aspera Ad Astra",
+  "Ascension to Heaven",
+  "Astral Quantization",
+  "Infinite Strife,",
+  "Verdict",
+  "Fin:ArcDeaR",
+  "Accelerate",
+  "B30T1V",
+  "Overwhelm",
+  "CALAMITY RHAPSODY",
+  "Nyaflarothep's Drea",
+  "ateribus",
+  "Rocky Bunne",
+  "輝斑",
+  "Gengozo",
+  "Exifium",
+  "Elligos",
+  "He asked me if I exce",
+  "Duplicity Shade",
+  "Xaleid scopX",
+  "溫月",
+  "Agn7EEE",
+  "Abstruse OliemallS",
+  "Ex-Oriobanashi",
+  "Bring Our Ignition B",
+  "Fracture Ray",
+  "Lamentation(XingLin",
+  "グローリー・ワンダ",
+  "KILLY DEATH",
+  "哀愁詠歌",
+  "天楽論",
+  "rensHant",
+  "杏空",
+  "AdriMWar",
+  "十乗剣",
+  "Data Corruption",
+  "郎社",
+  "SUPERINOVA",
+  "YOUINITHM",
+  "虚属泉",
+  "六万年と一雫物語",
+  "Echoes of Memory",
+  "Chery",
+  "Cathe The Glory",
+  "Gjaku",
+  "Ambphibaena",
+  "Exifium",
+  "Zvreka",
+  "RevivER",
+  "Broken Frutz",
+  "星環【交鋒】"
+ ]
+}

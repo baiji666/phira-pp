@@ -1,0 +1,31 @@
+{
+  "note": "Explicit expert overrides — highest priority in the difficulty chain. These DELIBERATELY deviate from the fitted model: D* is a least-squares fit to the 定数 labels, so for a chart whose label is 18.4/18.56/19.00 it can never output 19.4/19.5 without wrecking the fit for everything else. Project owner's own 定数, supplied 2026-09. No rebuild needed; edit and re-run (scripts/build_standalone.py bakes them into the single file).",
+  "source": "项目主（专家）",
+  "rows": [
+    {
+      "id": 22206,
+      "value": 19.4,
+      "note": "8-9 分钟耐力谱；项目主：至少 19.4（其谱师定数 18.4 / 主观表 18.56 属低估）"
+    },
+    {
+      "id": 39209,
+      "value": 19.6,
+      "note": "9 分钟耐力谱；项目主：19.5–19.7（取中值）"
+    },
+    {
+      "id": 14863,
+      "value": 19.5,
+      "note": "项目主：实际体感 19.5+（谱师定数 19.00、D* 19.18 都偏低）"
+    },
+    {
+      "id": 54540,
+      "value": 18.5,
+      "note": "项目主：严重高估（D* 19.19）。51 秒 10000 键、92% drag / 95% 多押的堆叠墙；模型的“短而密”加成约 +3.7"
+    },
+    {
+      "id": 50333,
+      "value": 18.0,
+      "note": "项目主：严重高估（D* 18.81）。谱师写的 20.00 已在标签清洗阶段当离群剔除"
+    }
+  ]
+}

@@ -1,0 +1,1189 @@
+{
+ "source": "phira高难自制谱面参考性主观定数表（用户提供的 xlsx，见 data/subjective_diff.xlsx）",
+ "rows": [
+  {
+   "id": 39209,
+   "name": "Fallen Symphony",
+   "difficulty": 18.59,
+   "charter": "RinFall",
+   "bonus": "耐力+++爆发+++",
+   "group": "18.5x"
+  },
+  {
+   "id": 31028,
+   "name": "灰の羽搏〈加强〉",
+   "difficulty": 18.58,
+   "charter": "阿绫绫绫绫绫吖",
+   "bonus": "爆发+++耐力+++",
+   "group": "18.5x"
+  },
+  {
+   "id": 16380,
+   "name": "Thank you for playing",
+   "difficulty": 18.58,
+   "charter": "snakewhale",
+   "bonus": "爆发+++技巧+++",
+   "group": "18.5x"
+  },
+  {
+   "id": 43489,
+   "name": "Fight Against the Past",
+   "difficulty": 18.57,
+   "charter": "RinFall&Necrologist_遗愿",
+   "bonus": "爆发++技巧++耐力++",
+   "group": "18.5x"
+  },
+  {
+   "id": 30942,
+   "name": "Baryogenesis",
+   "difficulty": 18.56,
+   "charter": "ye -srx-&10xing",
+   "bonus": "耐力++++",
+   "group": "18.5x"
+  },
+  {
+   "id": 22206,
+   "name": "Fallen Symphony",
+   "difficulty": 18.56,
+   "charter": "-无铭alexsteven-",
+   "bonus": "爆发++++耐力+++技巧+",
+   "group": "18.5x"
+  },
+  {
+   "id": 43493,
+   "name": "THE F1RST S11KER",
+   "difficulty": 18.55,
+   "charter": "TEAM THE F1RST SEEKER",
+   "bonus": "耐力+爆发++技巧++",
+   "group": "18.5x"
+  },
+  {
+   "id": 36301,
+   "name": "Beyond the AExis",
+   "difficulty": 18.54,
+   "charter": "CwD9kir_",
+   "bonus": "爆发+++耐力++",
+   "group": "18.5x"
+  },
+  {
+   "id": 29234,
+   "name": "Bossa Gabba",
+   "difficulty": 18.53,
+   "charter": "HarMony_Xtar",
+   "bonus": "爆发++++技巧++",
+   "group": "18.5x"
+  },
+  {
+   "id": 26688,
+   "name": "Daphnis",
+   "difficulty": 18.52,
+   "charter": "伊布罗西亚",
+   "bonus": "技巧++++爆发++",
+   "group": "18.5x"
+  },
+  {
+   "id": 44992,
+   "name": "Dear Farthest You",
+   "difficulty": 18.51,
+   "charter": "SSuent",
+   "bonus": "技巧++++爆发++菲拉特性+",
+   "group": "18.5x"
+  },
+  {
+   "id": 25648,
+   "name": "The Final EndGame〈主难〉",
+   "difficulty": 18.49,
+   "charter": "ShaoQi Cup Chart Team",
+   "bonus": "技巧++爆发++++",
+   "group": "18.4x"
+  },
+  {
+   "id": 322,
+   "name": "黄道、知希朋友と紡ぎありく",
+   "difficulty": 18.47,
+   "charter": "JMY-19388&-无铭alexsteven-",
+   "bonus": "爆发+++技巧++",
+   "group": "18.4x"
+  },
+  {
+   "id": 23090,
+   "name": "Ultimate Force",
+   "difficulty": 18.46,
+   "charter": "Necrologist_遗愿&_lax",
+   "bonus": "爆发++++菲拉特性+",
+   "group": "18.4x"
+  },
+  {
+   "id": 34359,
+   "name": "Vicious Mockery",
+   "difficulty": 18.45,
+   "charter": "zsc985246",
+   "bonus": "爆发+++",
+   "group": "18.4x"
+  },
+  {
+   "id": 33220,
+   "name": "Invisible Frenzy",
+   "difficulty": 18.45,
+   "charter": "Zku&青杉",
+   "bonus": "爆发+++技巧++",
+   "group": "18.4x"
+  },
+  {
+   "id": 31096,
+   "name": "True Blue",
+   "difficulty": 18.44,
+   "charter": "ye -srx-",
+   "bonus": "技巧++",
+   "group": "18.4x"
+  },
+  {
+   "id": 42113,
+   "name": "Xaleid◆scopiX",
+   "difficulty": 18.44,
+   "charter": "春晖awa",
+   "bonus": "耐力++爆发+++技巧+",
+   "group": "18.4x"
+  },
+  {
+   "id": 41444,
+   "name": "高速素粒子衝突型加速器",
+   "difficulty": 18.43,
+   "charter": "Pigeon.114",
+   "bonus": "耐力++菲拉特性++爆发++",
+   "group": "18.4x"
+  },
+  {
+   "id": 41236,
+   "name": "不可逆的運命ディストピア",
+   "difficulty": 18.43,
+   "charter": "氷川秋乃&Necrologist_遗愿",
+   "bonus": "技巧++菲拉特性+",
+   "group": "18.4x"
+  },
+  {
+   "id": 34128,
+   "name": "ギザバ怪文書",
+   "difficulty": 18.42,
+   "charter": "hsX小轩",
+   "bonus": "爆发+++",
+   "group": "18.4x"
+  },
+  {
+   "id": 37052,
+   "name": "朧月",
+   "difficulty": 18.42,
+   "charter": "ye -srx-&778Y0E&阿绫绫绫绫绫吖",
+   "bonus": "爆发+技巧+",
+   "group": "18.4x"
+  },
+  {
+   "id": 22408,
+   "name": "ULTiMATE INFLATiON〈旧〉",
+   "difficulty": 18.41,
+   "charter": "疯子_XFFFFFFFFFF&10xing",
+   "bonus": "/",
+   "group": "18.4x"
+  },
+  {
+   "id": 25743,
+   "name": "霹靂神ソフトウェア",
+   "difficulty": 18.41,
+   "charter": "XL114",
+   "bonus": "技巧++耐力++",
+   "group": "18.4x"
+  },
+  {
+   "id": 43283,
+   "name": "X.E.N.O",
+   "difficulty": 18.39,
+   "charter": "woNTeRz_ENDLESS",
+   "bonus": "技巧+++",
+   "group": "18.3x"
+  },
+  {
+   "id": 38606,
+   "name": "グローリー・ワンダーランド",
+   "difficulty": 18.38,
+   "charter": "NWM_與我無關",
+   "bonus": "技巧+++爆发++菲拉特性+",
+   "group": "18.3x"
+  },
+  {
+   "id": 43455,
+   "name": "冥",
+   "difficulty": 18.38,
+   "charter": "NothinGSenceazy&ye -srx-",
+   "bonus": "爆发++技巧++",
+   "group": "18.3x"
+  },
+  {
+   "id": 42058,
+   "name": "Parallel Universe Shifter",
+   "difficulty": 18.37,
+   "charter": "XL114",
+   "bonus": "爆发++技巧++耐力++",
+   "group": "18.3x"
+  },
+  {
+   "id": 26228,
+   "name": "stεganography",
+   "difficulty": 18.36,
+   "charter": "Dr.Asriel&MooniteSakust",
+   "bonus": "耐力+++爆发+技巧++",
+   "group": "18.3x"
+  },
+  {
+   "id": 37024,
+   "name": "Raven Emperor",
+   "difficulty": 18.36,
+   "charter": "冬眠小麦karen",
+   "bonus": "菲拉特性+",
+   "group": "18.3x"
+  },
+  {
+   "id": 16816,
+   "name": "天空の城ヴェリエル",
+   "difficulty": 18.35,
+   "charter": "MZDDZMQY",
+   "bonus": "爆发++技巧+++",
+   "group": "18.3x"
+  },
+  {
+   "id": 19228,
+   "name": "すべてが幻になった後で",
+   "difficulty": 18.35,
+   "charter": "阿狸A_Li",
+   "bonus": "爆发+++技巧+",
+   "group": "18.3x"
+  },
+  {
+   "id": 40981,
+   "name": "Crossmythos Rhapsodia",
+   "difficulty": 18.35,
+   "charter": "冬眠小麦karen",
+   "bonus": "技巧++菲拉特性+爆发++",
+   "group": "18.3x"
+  },
+  {
+   "id": 47326,
+   "name": "Exit This Earth's Atomosphere",
+   "difficulty": 18.34,
+   "charter": "Reticent_Dust&MooniteSakust&NothinGSenceazy&阿狸A_Li&NotTrue1",
+   "bonus": "爆发+++技巧++菲拉特性++",
+   "group": "18.3x"
+  },
+  {
+   "id": 25075,
+   "name": "《Re:miniscence》",
+   "difficulty": 18.34,
+   "charter": "∞∞(σ∧σ*)∞∞ネメシスの住人からの挑戦状∞∞(σ∧σ*)∞∞",
+   "bonus": "/",
+   "group": "18.3x"
+  },
+  {
+   "id": 33440,
+   "name": "氷滅の135小節",
+   "difficulty": 18.33,
+   "charter": "778Y0E",
+   "bonus": "技巧++",
+   "group": "18.3x"
+  },
+  {
+   "id": 40587,
+   "name": "Towards the 300",
+   "difficulty": 18.33,
+   "charter": "NothinGSenceazy",
+   "bonus": "爆发++技巧++",
+   "group": "18.3x"
+  },
+  {
+   "id": 19552,
+   "name": "Xeno Gravity",
+   "difficulty": 18.32,
+   "charter": "SSuent&MooniteSakust",
+   "bonus": "爆发+++",
+   "group": "18.3x"
+  },
+  {
+   "id": 39240,
+   "name": "stop-motion",
+   "difficulty": 18.32,
+   "charter": "ziyang_51571",
+   "bonus": "技巧++",
+   "group": "18.3x"
+  },
+  {
+   "id": 1834,
+   "name": "TremENDouS",
+   "difficulty": 18.29,
+   "charter": "Repeatpump",
+   "bonus": "耐力+++爆发+++菲拉特性+",
+   "group": "18.2x"
+  },
+  {
+   "id": 21157,
+   "name": "Burning Star",
+   "difficulty": 18.26,
+   "charter": "疯子_XFFFFFFFFF",
+   "bonus": "爆发+++技巧+++",
+   "group": "18.2x"
+  },
+  {
+   "id": 27937,
+   "name": "超最終鬼畜妹フランドール・S",
+   "difficulty": 18.26,
+   "charter": "疯子_XFFFFFFFFF",
+   "bonus": "技巧+菲拉特性+",
+   "group": "18.2x"
+  },
+  {
+   "id": 31331,
+   "name": "Calamity Tempest",
+   "difficulty": 18.25,
+   "charter": "WGF Team",
+   "bonus": "/",
+   "group": "18.2x"
+  },
+  {
+   "id": 7672,
+   "name": "Animosity",
+   "difficulty": 18.25,
+   "charter": "星星awa",
+   "bonus": "爆发+++技巧+++菲拉特性++",
+   "group": "18.2x"
+  },
+  {
+   "id": 7375,
+   "name": "Niflhel〈主难〉",
+   "difficulty": 18.24,
+   "charter": "氷川秋乃&FreMo",
+   "bonus": "技巧+爆发+",
+   "group": "18.2x"
+  },
+  {
+   "id": 33530,
+   "name": "lovelynonsense",
+   "difficulty": 18.22,
+   "charter": "阿狸A_Li",
+   "bonus": "爆发++",
+   "group": "18.2x"
+  },
+  {
+   "id": 34208,
+   "name": "Echoes of Memoria",
+   "difficulty": 18.22,
+   "charter": "Memories of Team",
+   "bonus": "技巧+++爆发+++耐力+++",
+   "group": "18.2x"
+  },
+  {
+   "id": 42628,
+   "name": "I Wanna",
+   "difficulty": 18.19,
+   "charter": "NWM_與我無關",
+   "bonus": "技巧+++菲拉特性+",
+   "group": "18.1x"
+  },
+  {
+   "id": 31301,
+   "name": "Traxxendenza",
+   "difficulty": 18.19,
+   "charter": "Travvencenta",
+   "bonus": "技巧++++",
+   "group": "18.1x"
+  },
+  {
+   "id": 17953,
+   "name": "2000VOLT",
+   "difficulty": 18.18,
+   "charter": "Tresz",
+   "bonus": "技巧+++爆发++",
+   "group": "18.1x"
+  },
+  {
+   "id": 26017,
+   "name": "MEGALOVANIA(Camellia Remix)",
+   "difficulty": 18.18,
+   "charter": "C4G3 0F 4BY55/五重终结",
+   "bonus": "耐力++++爆发++",
+   "group": "18.1x"
+  },
+  {
+   "id": 15144,
+   "name": "Duplicity Shade",
+   "difficulty": 18.17,
+   "charter": "WGF Team",
+   "bonus": "耐力+++爆发+++",
+   "group": "18.1x"
+  },
+  {
+   "id": 24729,
+   "name": "九皋",
+   "difficulty": 18.17,
+   "charter": "SuFish_",
+   "bonus": "耐力+++技巧+++爆发++",
+   "group": "18.1x"
+  },
+  {
+   "id": 319,
+   "name": "King Atlantis",
+   "difficulty": 18.16,
+   "charter": "SSuent",
+   "bonus": "耐力+++技巧++菲拉特性+",
+   "group": "18.1x"
+  },
+  {
+   "id": 19391,
+   "name": "ULTiMATE INFLATiON",
+   "difficulty": 18.16,
+   "charter": "Rea_cy",
+   "bonus": "爆发++技巧++",
+   "group": "18.1x"
+  },
+  {
+   "id": 3701,
+   "name": "Möbius",
+   "difficulty": 18.16,
+   "charter": "我是手残我很手残",
+   "bonus": "技巧++++爆发+",
+   "group": "18.1x"
+  },
+  {
+   "id": 19892,
+   "name": "Picasso",
+   "difficulty": 18.15,
+   "charter": "Dr.Asriel",
+   "bonus": "爆发++++技巧++",
+   "group": "18.1x"
+  },
+  {
+   "id": 19089,
+   "name": "ャミナベ!!!!",
+   "difficulty": 18.15,
+   "charter": "FreMo&Ezcape_82",
+   "bonus": "技巧+++爆发+++",
+   "group": "18.1x"
+  },
+  {
+   "id": 7917,
+   "name": "キメラ",
+   "difficulty": 18.15,
+   "charter": "LogicM__&氷川秋乃",
+   "bonus": "菲拉特性++爆发+++",
+   "group": "18.1x"
+  },
+  {
+   "id": 41270,
+   "name": "silly-willy-nilly",
+   "difficulty": 18.13,
+   "charter": "ty天远",
+   "bonus": "菲拉特性+技巧++",
+   "group": "18.1x"
+  },
+  {
+   "id": 6191,
+   "name": "Fin.ArcDeaR",
+   "difficulty": 18.12,
+   "charter": "ty天远",
+   "bonus": "耐力++爆发+++技巧++",
+   "group": "18.1x"
+  },
+  {
+   "id": 26405,
+   "name": "Period.",
+   "difficulty": 18.11,
+   "charter": "IRN_Akashi",
+   "bonus": "爆发+++技巧++",
+   "group": "18.1x"
+  },
+  {
+   "id": 28031,
+   "name": "T+ VS SHARK",
+   "difficulty": 18.11,
+   "charter": "伍零柒壹5071",
+   "bonus": "耐力+爆发+++",
+   "group": "18.1x"
+  },
+  {
+   "id": 5579,
+   "name": "Crazy Tek",
+   "difficulty": 18.09,
+   "charter": "Calatis&Purplstar",
+   "bonus": "技巧+++",
+   "group": "18.0x"
+  },
+  {
+   "id": 42984,
+   "name": "Clinozoisite",
+   "difficulty": 18.08,
+   "charter": "苏白白烤羊肉串",
+   "bonus": "技巧+++爆发+耐力++",
+   "group": "18.0x"
+  },
+  {
+   "id": 27336,
+   "name": "Sadalmelik",
+   "difficulty": 18.08,
+   "charter": "阿狸A_Li",
+   "bonus": "技巧+++爆发+",
+   "group": "18.0x"
+  },
+  {
+   "id": 7039,
+   "name": "A Lasting Promise",
+   "difficulty": 18.07,
+   "charter": "XerdouS",
+   "bonus": "菲拉特性++",
+   "group": "18.0x"
+  },
+  {
+   "id": 7640,
+   "name": "Bad Elixir〈削〉",
+   "difficulty": 18.07,
+   "charter": "CWind_凛风",
+   "bonus": "/",
+   "group": "18.0x"
+  },
+  {
+   "id": 45431,
+   "name": "M1LLI0N PP",
+   "difficulty": 18.06,
+   "charter": "XSilence_10231",
+   "bonus": "耐力+++技巧+++爆发++",
+   "group": "18.0x"
+  },
+  {
+   "id": 21987,
+   "name": "NOTES RUSH！Daiza remix~Ruler of the heavens~",
+   "difficulty": 18.06,
+   "charter": "CHART RUSH！~Charters from the hell~",
+   "bonus": "技巧++++爆发+",
+   "group": "18.0x"
+  },
+  {
+   "id": 27157,
+   "name": "Re:End of a Dream",
+   "difficulty": 18.05,
+   "charter": "NyaCers喵卡酱",
+   "bonus": "爆发++",
+   "group": "18.0x"
+  },
+  {
+   "id": 24969,
+   "name": "WACCA ULTRA DREAM MEGAMIX",
+   "difficulty": 18.05,
+   "charter": "Phigros Fanmade Chart Team",
+   "bonus": "耐力+爆发+++技巧+菲拉特性+",
+   "group": "18.0x"
+  },
+  {
+   "id": 30514,
+   "name": "DA'AT -The First Seeker of Souls-",
+   "difficulty": 18.04,
+   "charter": "WinterProtecter",
+   "bonus": "爆发++技巧++",
+   "group": "18.0x"
+  },
+  {
+   "id": 370,
+   "name": "Astaroth",
+   "difficulty": 18.04,
+   "charter": "Ezcape_82",
+   "bonus": "/",
+   "group": "18.0x"
+  },
+  {
+   "id": 26705,
+   "name": "Hypervelocity",
+   "difficulty": 18.04,
+   "charter": "CookieRacer",
+   "bonus": "耐力++技巧++",
+   "group": "18.0x"
+  },
+  {
+   "id": 285,
+   "name": "Quietus Ray",
+   "difficulty": 18.03,
+   "charter": "CWind_凛风",
+   "bonus": "技巧++",
+   "group": "18.0x"
+  },
+  {
+   "id": 15609,
+   "name": "《Ж》",
+   "difficulty": 18.03,
+   "charter": "ty天远",
+   "bonus": "技巧++爆发+",
+   "group": "18.0x"
+  },
+  {
+   "id": 30747,
+   "name": "Quaoar",
+   "difficulty": 18.03,
+   "charter": "ye -srx-",
+   "bonus": "耐力++技巧+++",
+   "group": "18.0x"
+  },
+  {
+   "id": 30474,
+   "name": "βlαnoir",
+   "difficulty": 18.02,
+   "charter": "REO_VF&冬眠小麦karen",
+   "bonus": "爆发++++",
+   "group": "18.0x"
+  },
+  {
+   "id": 11517,
+   "name": "Le Porteur d'Ombre",
+   "difficulty": 18.01,
+   "charter": "-无铭alexsteven-",
+   "bonus": "爆发++++",
+   "group": "18.0x"
+  },
+  {
+   "id": 16225,
+   "name": "Unlimited Hyperlink",
+   "difficulty": 17.99,
+   "charter": "Unlimited Fantasy Charting Team",
+   "bonus": "耐力+技巧++菲拉特性++",
+   "group": "17.9x"
+  },
+  {
+   "id": 24615,
+   "name": "you ArE NEvEr ALoNE oN thE dANcEfloor",
+   "difficulty": 17.99,
+   "charter": "喵猫鱼&NikoCatroom",
+   "bonus": "耐力+++技巧+爆发+",
+   "group": "17.9x"
+  },
+  {
+   "id": 14192,
+   "name": "VorpΛlize",
+   "difficulty": 17.98,
+   "charter": "英梨梨无了",
+   "bonus": "爆发++技巧++",
+   "group": "17.9x"
+  },
+  {
+   "id": 23735,
+   "name": "Rite of ascendancy",
+   "difficulty": 17.98,
+   "charter": "†The Ascender†",
+   "bonus": "耐力++++技巧++爆发++",
+   "group": "17.9x"
+  },
+  {
+   "id": 23418,
+   "name": "GAME:CHANGER",
+   "difficulty": 17.97,
+   "charter": "Yurisky_",
+   "bonus": "爆发++++",
+   "group": "17.9x"
+  },
+  {
+   "id": 7316,
+   "name": "国士無双",
+   "difficulty": 17.97,
+   "charter": "『MíCHAël XaliburNé』",
+   "bonus": "菲拉特性++技巧+++",
+   "group": "17.9x"
+  },
+  {
+   "id": 37436,
+   "name": ":3c",
+   "difficulty": 17.96,
+   "charter": "CookieRacer",
+   "bonus": "技巧+++菲拉特性+",
+   "group": "17.9x"
+  },
+  {
+   "id": 21708,
+   "name": "核心共振",
+   "difficulty": 17.96,
+   "charter": "Yurisky_&MooniteSakust",
+   "bonus": "菲拉特性+",
+   "group": "17.9x"
+  },
+  {
+   "id": 18119,
+   "name": "Seculo Seculorum",
+   "difficulty": 17.94,
+   "charter": "-Antimony-",
+   "bonus": "技巧++",
+   "group": "17.9x"
+  },
+  {
+   "id": 38741,
+   "name": "Eternal Ending",
+   "difficulty": 17.93,
+   "charter": "-LaNOmeGaSz-",
+   "bonus": "爆发++",
+   "group": "17.9x"
+  },
+  {
+   "id": 6956,
+   "name": "Blackbird",
+   "difficulty": 17.93,
+   "charter": "Dr.Asriel",
+   "bonus": "耐力++爆发++",
+   "group": "17.9x"
+  },
+  {
+   "id": 37121,
+   "name": "Vengeance of the \"V\"",
+   "difficulty": 17.92,
+   "charter": "Kanylant",
+   "bonus": "技巧+",
+   "group": "17.9x"
+  },
+  {
+   "id": 27108,
+   "name": "Eviternity",
+   "difficulty": 17.91,
+   "charter": "紫极由纪",
+   "bonus": "/",
+   "group": "17.9x"
+  },
+  {
+   "id": 27457,
+   "name": "Chronostasis",
+   "difficulty": 17.89,
+   "charter": "REO_VF",
+   "bonus": "爆发++++菲拉特性+",
+   "group": "17.8x"
+  },
+  {
+   "id": 22428,
+   "name": "ANU",
+   "difficulty": 17.89,
+   "charter": "GaiM&慕青蓝血",
+   "bonus": "爆发++技巧+++",
+   "group": "17.8x"
+  },
+  {
+   "id": 36514,
+   "name": "KIZUNA resolution",
+   "difficulty": 17.88,
+   "charter": "天月_あまつき",
+   "bonus": "技巧++爆发++++",
+   "group": "17.8x"
+  },
+  {
+   "id": 36872,
+   "name": "Moonfall（大月墜落狂想）",
+   "difficulty": 17.87,
+   "charter": "满瓶水分子&枫起-FQ",
+   "bonus": "技巧++++菲拉特性++",
+   "group": "17.8x"
+  },
+  {
+   "id": 24881,
+   "name": "Makear",
+   "difficulty": 17.87,
+   "charter": "White_Light&SSuent",
+   "bonus": "爆发++",
+   "group": "17.8x"
+  },
+  {
+   "id": 25523,
+   "name": "Waking Shadows(feat. Eili)",
+   "difficulty": 17.86,
+   "charter": "「When the Shadow of Darkness Envelopes the World」",
+   "bonus": "爆发++耐力++技巧+",
+   "group": "17.8x"
+  },
+  {
+   "id": 24882,
+   "name": "POLYBIUS GB SPEEDRUN -Glitchless 100% WR in 0:03:57-",
+   "difficulty": 17.86,
+   "charter": "//Sinnes10 schen\"> -ce qui n’est pas matériel pour le cœur n’est pas l’esprit-",
+   "bonus": "耐力++爆发++技巧++",
+   "group": "17.8x"
+  },
+  {
+   "id": 30471,
+   "name": "《創造》 ～Cries,beyond The End",
+   "difficulty": 17.85,
+   "charter": "HarMony_Xtar&MooniteSakust&-Antimony-",
+   "bonus": "技巧++++",
+   "group": "17.8x"
+  },
+  {
+   "id": 16593,
+   "name": "DEUX EX MĀXHINA",
+   "difficulty": 17.85,
+   "charter": "SSuent",
+   "bonus": "/",
+   "group": "17.8x"
+  },
+  {
+   "id": 24851,
+   "name": "DiSANiMATE",
+   "difficulty": 17.84,
+   "charter": "MooniteSakust",
+   "bonus": "耐力++爆发+++",
+   "group": "17.8x"
+  },
+  {
+   "id": 36844,
+   "name": "Parallel Universe Shifter",
+   "difficulty": 17.84,
+   "charter": "XSilence_10231",
+   "bonus": "耐力++技巧++爆发+",
+   "group": "17.8x"
+  },
+  {
+   "id": 18552,
+   "name": "Sendan Life(Katagiri Bootleg)",
+   "difficulty": 17.83,
+   "charter": "Tyarnl",
+   "bonus": "耐力+",
+   "group": "17.8x"
+  },
+  {
+   "id": 25779,
+   "name": "Staring at star",
+   "difficulty": 17.83,
+   "charter": "MZDDZMQY",
+   "bonus": "/",
+   "group": "17.8x"
+  },
+  {
+   "id": 41228,
+   "name": "Catch The Glory（Cut ver.）",
+   "difficulty": 17.83,
+   "charter": "花域FloraRealm&MooniteSakust",
+   "bonus": "/",
+   "group": "17.8x"
+  },
+  {
+   "id": 1800,
+   "name": "Wolves Standing Towards Enemies",
+   "difficulty": 17.82,
+   "charter": "Dr.Asriel",
+   "bonus": "爆发++",
+   "group": "17.8x"
+  },
+  {
+   "id": 7979,
+   "name": "ЯeviveR",
+   "difficulty": 17.82,
+   "charter": "KCIK_",
+   "bonus": "/",
+   "group": "17.8x"
+  },
+  {
+   "id": 7341,
+   "name": "NiFlhel〈次难〉",
+   "difficulty": 17.81,
+   "charter": "氷川秋乃&FreMo&SSuent",
+   "bonus": "菲拉特性+",
+   "group": "17.8x"
+  },
+  {
+   "id": 9198,
+   "name": "Angel's Salad",
+   "difficulty": 17.79,
+   "charter": "ty天远",
+   "bonus": "技巧++菲拉特性++",
+   "group": "17.7x"
+  },
+  {
+   "id": 19573,
+   "name": "iLLness LiLin",
+   "difficulty": 17.79,
+   "charter": "Pcechqnt",
+   "bonus": "爆发++技巧+",
+   "group": "17.7x"
+  },
+  {
+   "id": 41234,
+   "name": "siren's eye",
+   "difficulty": 17.78,
+   "charter": "NyXi_",
+   "bonus": "技巧++++",
+   "group": "17.7x"
+  },
+  {
+   "id": 7707,
+   "name": "Annihilation in F# Minor",
+   "difficulty": 17.78,
+   "charter": "Phira Chart Team",
+   "bonus": "爆发++",
+   "group": "17.7x"
+  },
+  {
+   "id": 1051,
+   "name": "666.0",
+   "difficulty": 17.77,
+   "charter": "变异の&XerdouS",
+   "bonus": "爆发++菲拉特性+",
+   "group": "17.7x"
+  },
+  {
+   "id": 23601,
+   "name": "SUPERNOVA",
+   "difficulty": 17.77,
+   "charter": "starCookie",
+   "bonus": "爆发++技巧++菲拉特性+",
+   "group": "17.7x"
+  },
+  {
+   "id": 12846,
+   "name": "Σvreka",
+   "difficulty": 17.76,
+   "charter": "CookieRacer",
+   "bonus": "爆发+耐力++菲拉特性+",
+   "group": "17.7x"
+  },
+  {
+   "id": 15076,
+   "name": "Exitium",
+   "difficulty": 17.76,
+   "charter": "Dr.Asriel&Awlf",
+   "bonus": "/",
+   "group": "17.7x"
+  },
+  {
+   "id": 14480,
+   "name": "≠(Over Limit)",
+   "difficulty": 17.76,
+   "charter": "Volcanic CharTing T³am",
+   "bonus": "爆发++技巧+++",
+   "group": "17.7x"
+  },
+  {
+   "id": 24772,
+   "name": "[World_Collapse]",
+   "difficulty": 17.75,
+   "charter": "[I_AM_SspeCulator]",
+   "bonus": "技巧++爆发++",
+   "group": "17.7x"
+  },
+  {
+   "id": 14591,
+   "name": "十拳剣",
+   "difficulty": 17.75,
+   "charter": "Purplstar&Yurisky_",
+   "bonus": "技巧++",
+   "group": "17.7x"
+  },
+  {
+   "id": 12519,
+   "name": "Essence",
+   "difficulty": 17.74,
+   "charter": "“EverGod”ChartingTeam",
+   "bonus": "耐力++++",
+   "group": "17.7x"
+  },
+  {
+   "id": 128,
+   "name": "Ēvocator〈旧〉",
+   "difficulty": 17.74,
+   "charter": "Purplstar&RinFall",
+   "bonus": "爆发++++",
+   "group": "17.7x"
+  },
+  {
+   "id": 20278,
+   "name": "raputa",
+   "difficulty": 17.73,
+   "charter": "Astronauts.V",
+   "bonus": "技巧+++",
+   "group": "17.7x"
+  },
+  {
+   "id": 18907,
+   "name": "GALACTIC WARZONE",
+   "difficulty": 17.73,
+   "charter": "MooniteSakust",
+   "bonus": "技巧++",
+   "group": "17.7x"
+  },
+  {
+   "id": 17814,
+   "name": "Fractured Angel",
+   "difficulty": 17.73,
+   "charter": "MooniteSakust&Yurisky_",
+   "bonus": "爆发++菲拉特性+",
+   "group": "17.7x"
+  },
+  {
+   "id": 27934,
+   "name": "BAYONEX",
+   "difficulty": 17.72,
+   "charter": "芒芒果果茶茶茶",
+   "bonus": "/",
+   "group": "17.7x"
+  },
+  {
+   "id": 41913,
+   "name": "Ēvocator〈新〉",
+   "difficulty": 17.7,
+   "charter": "WGF Team",
+   "bonus": "爆发++++",
+   "group": "17.7x"
+  },
+  {
+   "id": 1952,
+   "name": "World's end loneliness",
+   "difficulty": 17.69,
+   "charter": "-Antimony-",
+   "bonus": "技巧+++",
+   "group": "17.6x"
+  },
+  {
+   "id": 29640,
+   "name": "#curtaincall",
+   "difficulty": 17.68,
+   "charter": "ty天远",
+   "bonus": "爆发++",
+   "group": "17.6x"
+  },
+  {
+   "id": 6117,
+   "name": "Traveler ~Stand Aloof~",
+   "difficulty": 17.66,
+   "charter": "Xen0kaga1674&Sea__Salt",
+   "bonus": "技巧++",
+   "group": "17.6x"
+  },
+  {
+   "id": 7516,
+   "name": "Bathin",
+   "difficulty": 17.65,
+   "charter": "我是手残我很手残&喵猫鱼",
+   "bonus": "技巧++",
+   "group": "17.6x"
+  },
+  {
+   "id": 11585,
+   "name": "国士無双",
+   "difficulty": 17.65,
+   "charter": "-无铭alexsteven-",
+   "bonus": "技巧+爆发+",
+   "group": "17.6x"
+  },
+  {
+   "id": 23281,
+   "name": "GALACTIC WARZONE",
+   "difficulty": 17.65,
+   "charter": "Staster",
+   "bonus": "技巧+++菲拉特性+",
+   "group": "17.6x"
+  },
+  {
+   "id": 294,
+   "name": "XODUS",
+   "difficulty": 17.64,
+   "charter": "我是手残我很手残&喵猫鱼",
+   "bonus": "/",
+   "group": "17.6x"
+  },
+  {
+   "id": 10750,
+   "name": "Break Through Myself",
+   "difficulty": 17.64,
+   "charter": "阿绫绫绫绫吖&NEKOYO_NKY",
+   "bonus": "耐力+++",
+   "group": "17.6x"
+  },
+  {
+   "id": 24757,
+   "name": "The Final EndGame〈次难〉",
+   "difficulty": 17.63,
+   "charter": "ShaoQi Cup Chart Team",
+   "bonus": "技巧++菲拉特性+",
+   "group": "17.6x"
+  },
+  {
+   "id": 4190,
+   "name": "lcyxis",
+   "difficulty": 17.62,
+   "charter": "Setsuna",
+   "bonus": "/",
+   "group": "17.6x"
+  },
+  {
+   "id": 21700,
+   "name": "野花香（Haocore Mix)",
+   "difficulty": 17.62,
+   "charter": "阿瑞_Resonance",
+   "bonus": "技巧+++",
+   "group": "17.6x"
+  },
+  {
+   "id": 759,
+   "name": "Soulwind",
+   "difficulty": 17.6,
+   "charter": "FYe",
+   "bonus": "耐力+",
+   "group": "17.6x"
+  },
+  {
+   "id": 22951,
+   "name": "明鏡烈火",
+   "difficulty": 17.59,
+   "charter": "果林Fruit-Forest",
+   "bonus": "爆发++技巧++",
+   "group": "17.5x"
+  },
+  {
+   "id": 17666,
+   "name": "Waking Shadows（feat. Eili）",
+   "difficulty": 17.59,
+   "charter": "The Shadows",
+   "bonus": "技巧++耐力++",
+   "group": "17.5x"
+  },
+  {
+   "id": 35366,
+   "name": "Sphalerite",
+   "difficulty": 17.58,
+   "charter": "Yurisky_&MooniteSakust&阿狸A_Li",
+   "bonus": "技巧++",
+   "group": "17.5x"
+  },
+  {
+   "id": 4083,
+   "name": "Bl∞min'",
+   "difficulty": 17.58,
+   "charter": "NyXi_",
+   "bonus": "技巧++",
+   "group": "17.5x"
+  },
+  {
+   "id": 19181,
+   "name": "Picasso",
+   "difficulty": 17.57,
+   "charter": "「ΓεdícμΙous loγε」",
+   "bonus": "菲拉特性++技巧+++",
+   "group": "17.5x"
+  },
+  {
+   "id": 10617,
+   "name": "S.A.T.E.L.L.I.T.E",
+   "difficulty": 17.56,
+   "charter": "qhnps",
+   "bonus": "爆发+耐力++",
+   "group": "17.5x"
+  },
+  {
+   "id": 17422,
+   "name": "Revenant",
+   "difficulty": 17.55,
+   "charter": "Pigeeeeeon",
+   "bonus": "菲拉特性++",
+   "group": "17.5x"
+  },
+  {
+   "id": 34414,
+   "name": "anybody can find love (except you.)",
+   "difficulty": 17.55,
+   "charter": "Rea_XL_CAT",
+   "bonus": "爆发+",
+   "group": "17.5x"
+  }
+ ]
+}

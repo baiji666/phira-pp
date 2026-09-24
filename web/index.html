@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Phira PP 计算器</title>
+<style>
+  @font-face {
+    font-family: "cmdysj";
+    src: url("/fonts/cmdysj.ttf") format("truetype");
+    font-display: swap;
+  }
+  :root {
+    --bg: #0f1113;
+    --panel: #16191c;
+    --panel-2: #1c2024;
+    --line: #262c31;
+    --text: #e9ebee;
+    --muted: #98a2ab;
+    --dim: #6b757e;
+    --accent: #f0b429;
+    --bad: #e5533d;
+    --good: #5bd07a;
+    --font: "cmdysj", system-ui, -apple-system, "Segoe UI", "Microsoft YaHei", sans-serif;
+    --mono: "cmdysj", ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font: 15px/1.55 var(--font);
+    -webkit-font-smoothing: antialiased;
+    padding: 40px 20px 72px;
+  }
+  .wrap { max-width: 1100px; margin: 0 auto; }
+  [hidden] { display: none !important; }
+
+  header { margin-bottom: 26px; }
+  h1 {
+    font-size: 22px; letter-spacing: .2px; margin: 0 0 6px;
+    display: flex; align-items: baseline; gap: 10px;
+  }
+
+  /* -- login gate ---------------------------------------------------- */
+  .gate { min-height: 74vh; display: flex; align-items: center; justify-content: center; }
+  .gcard {
+    width: 100%; max-width: 420px;
+    background: var(--panel); border: 1px solid var(--line); border-radius: 14px;
+    padding: 30px 28px;
+  }
+  .gcard h1 { display: block; font-size: 23px; margin: 0 0 6px; }
+  .gcard .gsub { margin: 0 0 24px; color: var(--muted); font-size: 13px; }
+  .gcard form { background: transparent; border: 0; padding: 0; grid-template-columns: 1fr; gap: 16px; }
+  .gcard button { width: 100%; }
+
+  form {
+    background: var(--panel); border: 1px solid var(--line); border-radius: 12px;
+    padding: 18px; display: grid; gap: 14px;
+    grid-template-columns: 1fr 1fr auto; align-items: end;
+  }
+  .field { display: grid; gap: 6px; min-width: 0; }
+  label { font-size: 12px; color: var(--muted); letter-spacing: .3px; }
+  input {
+    width: 100%; background: var(--panel-2); color: var(--text);
+    border: 1px solid var(--line); border-radius: 8px; padding: 10px 12px;
+    font: 15px/1 var(--mono); font-variant-numeric: tabular-nums;
+  }
+  input::placeholder { color: #576069; }
+  input:focus-visible, button:focus-visible, a:focus-visible {
+    outline: 2px solid var(--accent); outline-offset: 2px;
+  }
+  button {
+    background: var(--accent); color: #1a1406; border: 0; border-radius: 8px;
+    padding: 11px 20px; font-size: 14px; font-weight: 650; cursor: pointer;
+  }
+  button[disabled] { opacity: .55; cursor: progress; }
+
+  .userbar {
+    display: flex; flex-wrap: wrap; align-items: center; gap: 4px 10px;
+    margin-top: 10px; color: var(--muted); font-size: 13px;
+  }
+  .userbar b { color: var(--text); }
+  .userbar .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--good); flex: 0 0 auto; }
+  .userbar code { font-family: var(--mono); color: var(--dim); }
+  button.ghost {
+    margin-left: auto; background: transparent; color: var(--muted);
+    border: 1px solid var(--line); padding: 7px 13px; font-size: 12.5px; font-weight: 550;
+  }
+  button.ghost:hover { color: var(--text); border-color: #3a434a; }
+  .lmsg { grid-column: 1 / -1; color: var(--bad); font-size: 12.5px; margin: 0; }
+
+  section { margin-top: 32px; }
+  section h2 { font-size: 16px; margin: 0 0 6px; letter-spacing: .2px; }
+  section > p { margin: 0 0 16px; color: var(--muted); font-size: 13.5px; }
+  section > p code { font-family: var(--mono); color: var(--dim); }
+
+  #out { margin-top: 20px; }
+  .card {
+    background: var(--panel); border: 1px solid var(--line); border-radius: 12px;
+    padding: 20px;
+  }
+  .card.err { border-color: #4a2a25; background: #1a1513; }
+  .who { display: flex; flex-wrap: wrap; gap: 4px 12px; align-items: baseline; margin-bottom: 16px; }
+  .who .p { font-weight: 650; }
+  .who .s { color: var(--muted); font-size: 13px; }
+  .who .s b { color: var(--dim); font-weight: 500; }
+
+  .pp { display: flex; align-items: flex-end; gap: 12px; margin-bottom: 6px; }
+  .pp .n {
+    font: 700 46px/1 var(--mono); font-variant-numeric: tabular-nums;
+    color: var(--accent); letter-spacing: -1px;
+  }
+  .pp .u { color: var(--muted); font-size: 13px; padding-bottom: 6px; }
+  .pp .src { margin-left: auto; color: var(--dim); font: 12px/1 var(--mono); padding-bottom: 8px; }
+
+  .grid {
+    display: grid; grid-template-columns: repeat(4, 1fr); gap: 1px;
+    background: var(--line); border: 1px solid var(--line); border-radius: 10px;
+    overflow: hidden; margin: 16px 0;
+  }
+  .cell { background: var(--panel-2); padding: 11px 12px; }
+  .cell .k { color: var(--dim); font-size: 11.5px; letter-spacing: .3px; }
+  .cell .v {
+    font: 600 17px/1.3 var(--mono); font-variant-numeric: tabular-nums; margin-top: 3px;
+  }
+  .cell .v small { color: var(--dim); font-size: 12px; font-weight: 500; }
+
+  .rows { display: grid; gap: 7px; margin-top: 4px; }
+  .row {
+    display: flex; justify-content: space-between; gap: 16px;
+    font-size: 13.5px; border-bottom: 1px dashed var(--line); padding-bottom: 7px;
+  }
+  .row:last-child { border-bottom: 0; padding-bottom: 0; }
+  .row .k { color: var(--muted); }
+  .row .v { font-family: var(--mono); font-variant-numeric: tabular-nums; text-align: right; }
+  .fcm { color: var(--good); }
+  .miss { color: var(--bad); }
+
+  .card.err .eh { font-weight: 650; margin-bottom: 8px; }
+  .card.err p { margin: 0 0 6px; color: var(--muted); font-size: 13.5px; }
+  .skel { color: var(--muted); font-size: 14px; }
+
+  #f { grid-template-columns: 1fr auto; }
+  .bignum { display: flex; align-items: flex-end; gap: 10px; margin-bottom: 4px; }
+  .bignum .n {
+    font: 700 42px/1 var(--mono); font-variant-numeric: tabular-nums;
+    color: var(--accent); letter-spacing: -1px;
+  }
+  .bignum .u { color: var(--muted); font-size: 13px; padding-bottom: 6px; }
+  .bignum .src { margin-left: auto; color: var(--dim); font: 12px/1 var(--mono); padding-bottom: 8px; }
+  .bstat {
+    display: flex; flex-wrap: wrap; gap: 4px 16px; color: var(--muted);
+    font-size: 13px; margin: 12px 0 12px;
+  }
+  .bstat b { color: var(--text); font-family: var(--mono); font-variant-numeric: tabular-nums; }
+  .prog { color: var(--muted); font-size: 13px; margin-top: 12px; font-family: var(--mono); }
+  .bar-track { height: 4px; background: var(--line); border-radius: 999px; overflow: hidden; margin-top: 8px; }
+  .bar-fill { height: 100%; width: 0; background: var(--accent); transition: width .15s linear; }
+  .bnote { color: var(--dim); font-size: 12.5px; margin: -4px 0 12px; }
+  .tscroll { max-height: 600px; overflow: auto; border: 1px solid var(--line); border-radius: 10px; }
+  table.best { width: 100%; border-collapse: collapse; font-size: 13.5px; }
+  table.best th {
+    position: sticky; top: 0; background: var(--panel-2); color: var(--dim); font-weight: 500;
+    text-align: right; padding: 9px 10px; font-size: 11.5px; letter-spacing: .3px;
+    white-space: nowrap;
+    border-bottom: 1px solid var(--line);
+  }
+  table.best td {
+    padding: 8px 10px; border-top: 1px solid var(--line); text-align: right;
+    font-family: var(--mono); font-variant-numeric: tabular-nums; white-space: nowrap;
+  }
+  table.best tbody tr:hover td { background: #1a1f24; }
+  table.best th.tname, table.best td.tname {
+    text-align: left; white-space: normal; min-width: 220px;
+  }
+  table.best td.trank { color: var(--dim); }
+  table.best td.tpp { color: var(--accent); font-weight: 650; }
+
+  @media (max-width: 620px) {
+    form, .gcard form { grid-template-columns: 1fr; }
+    .grid { grid-template-columns: repeat(2, 1fr); }
+    .pp .n { font-size: 38px; }
+  }
+  @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+</style>
+</head>
+<body>
+
+<!-- ---------------------------------------------------------------- login -->
+<div id="gate" class="gate" hidden>
+  <div class="gcard">
+    <h1>Phira PP</h1>
+    <p class="gsub">登录后进入 · 凭据仅本地转发，不回显、不落盘</p>
+    <form id="lf" autocomplete="off">
+      <div class="field">
+        <label for="lemail">Phira 邮箱</label>
+        <input id="lemail" type="email" autocomplete="username">
+      </div>
+      <div class="field">
+        <label for="lpass">密码</label>
+        <input id="lpass" type="password" autocomplete="current-password">
+      </div>
+      <button id="lgo" type="submit">登录</button>
+      <p id="lmsg" class="lmsg" hidden></p>
+    </form>
+  </div>
+</div>
+
+<!-- ------------------------------------------------------------ main app -->
+<div id="app" class="wrap" hidden>
+  <header>
+    <h1>Phira PP</h1>
+    <div id="userbar" class="userbar"></div>
+  </header>
+
+  <section>
+    <h2>Best 100</h2>
+    <button id="bgo" type="button">生成 Best 100</button>
+    <div id="bout" aria-live="polite"></div>
+  </section>
+
+  <section>
+    <h2>全量 Best 100</h2>
+    <p>覆盖 ranked + 常规全部谱面（非定数谱用自研 D* 兜底，首次需下载谱面包，约数分钟）。</p>
+    <button id="bfgo" type="button">全量扫描</button>
+    <div id="bfprog" aria-live="polite"></div>
+    <div id="bfout" aria-live="polite"></div>
+  </section>
+
+  <section>
+    <h2>单个成绩查询</h2>
+    <p>输入谱面编号，计算你该次成绩的 PP。</p>
+    <form id="f" autocomplete="off">
+      <div class="field">
+        <label for="chart">谱面编号</label>
+        <input id="chart" name="chart" type="number" inputmode="numeric" min="1" required>
+      </div>
+      <button id="go" type="submit">计算 PP</button>
+    </form>
+    <div id="out" aria-live="polite"></div>
+  </section>
+</div>
+
+<script>
+const $ = (s) => document.querySelector(s);
+const num = (v, d = 2, pad = false) => {
+  if (v === null || v === undefined) return "—";
+  const s = Number(v).toFixed(d);
+  return pad ? s.replace(/\B(?=(\d{3})+(?!\d))/g, ",") : s;
+};
+const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) =>
+  ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+
+let meId = null;   // Phira numeric id of the logged-in account (from /api/session)
+
+function fail(kind, data) {
+  const hint = data.hint ? `<p>${esc(data.hint)}</p>` : "";
+  return `<div class="card err">
+    <div class="eh">${esc(data.error || "查询失败")}</div>
+    ${hint}
+    <p style="color:var(--dim);font-family:var(--mono);font-size:12px">kind: ${esc(kind)}</p>
+  </div>`;
+}
+
+function render(data) {
+  if (!data.ok) return fail(data.kind || "error", data);
+  const p = data.player, c = data.chart, r = data.record, pp = data.pp;
+  if (!pp) {
+    return `<div class="card err">
+      <div class="eh">无法计算 PP</div>
+      <p>该谱面的 D* 不可用（谱面包解析失败或格式不支持）。</p>
+      <p style="color:var(--dim);font-family:var(--mono);font-size:12px">chart #${c.id}</p>
+    </div>`;
+  }
+  const fcm = r.miss === 0 && r.bad === 0
+    ? `<span class="fcm">${r.full_combo ? "FC" : ""}</span>` : "";
+  return `<div class="card">
+    <div class="who">
+      <span class="p">${esc(p.name)}</span>
+      <span class="s"><b>ID</b> ${p.id} · <b>rks</b> ${num(p.rks, 2)}</span>
+      <span class="s" style="margin-left:auto">#${c.id} ${esc(c.name)}</span>
+    </div>
+    <div class="who" style="margin:-8px 0 12px">
+      <span class="s"><b>等级</b> ${esc(c.level)} · <b>定数</b> ${num(c.difficulty, 2)}
+        · <b>物量</b> ${c.note_count ?? "—"} · <b>谱师</b> ${esc(c.charter)}</span>
+    </div>
+
+    <div class="pp">
+      <span class="n">${num(pp.total, 1)}</span><span class="u">pp</span>
+      <span class="src">来源 ${esc(data.source)}</span>
+    </div>
+
+    <div class="grid">
+      <div class="cell"><div class="k">难度（采用）</div>
+        <div class="v">${num(pp.difficulty, 2)}<small> ${esc(c.difficulty_source)}</small></div></div>
+      <div class="cell"><div class="k">无暇度</div><div class="v">${num(r.std_ms, 2)}<small> ms</small></div></div>
+      <div class="cell"><div class="k">准确率</div><div class="v">${num(r.accuracy * 100, 2)}<small> %</small></div></div>
+      <div class="cell"><div class="k">最大连击</div><div class="v">${r.max_combo}<small> / ${r.total}</small></div></div>
+    </div>
+
+    <div class="rows">
+      <div class="row"><span class="k">分数</span><span class="v">${num(r.score, 0, true)}</span></div>
+      <div class="row"><span class="k">Perfect / Good / Bad / Miss</span>
+        <span class="v">${r.perfect} / ${r.good} / ${r.bad} / <span class="${r.miss ? "miss" : ""}">${r.miss}</span> ${fcm}</span></div>
+      <div class="row"><span class="k">难度来源 · 定数 ${num(c.difficulty, 2)} / D* ${num(c.d_star, 2)}</span>
+        <span class="v">采用 ${num(c.difficulty_used, 2)}（${esc(c.difficulty_source)}）</span></div>
+      <div class="row"><span class="k">PP 分解 · 难度^${num(pp.diff_exp, 1)} × acc × 精度 × 漏键</span>
+        <span class="v">${num(pp.acc_factor, 4)} × ${num(pp.precision_factor, 4)} × ${num(pp.error_factor, 4)}</span></div>
+    </div>
+  </div>`;
+}
+
+function renderBest(data) {
+  if (!data.ok) return fail(data.kind || "error", data);
+  const it = data.items || [];
+  const st = data.stats || {};
+  const found = st.found ?? 0, scanned = st.scanned ?? 0, failed = st.scan_failed ?? 0;
+  const rows = it.map((x) => `<tr>
+      <td class="trank">${x.rank}</td>
+      <td class="tpp">${num(x.pp, 1)}</td>
+      <td>${num(x.weighted, 1)}</td>
+      <td>&times;${num(x.weight, 2)}</td>
+      <td class="tname">#${x.chart.id} ${esc(x.chart.name)}</td>
+      <td>${esc(x.chart.level || "")}</td>
+      <td title="${esc(x.chart.difficulty_source || "")}">${num(x.chart.difficulty_used, 2)}</td>
+      <td>${num(x.record.score, 0, true)}</td>
+      <td>${num(x.record.accuracy * 100, 2)}%</td>
+    </tr>`).join("");
+  const empty = it.length === 0
+    ? `<p class="skel" style="padding:14px">该玩家在定数表谱面集中没有可查到的成绩。</p>` : "";
+  const oor = st.dstar_out_of_range ?? st.no_difficulty ?? 0;
+  const noteParts = [];
+  if (failed > 0) noteParts.push(`${failed} 张查询失败`);
+  if (oor > 0) noteParts.push(`${oor} 张谱的 D* 预测越界（非 ranked / 定数表），难度不可靠已排除`);
+  const note = noteParts.length
+    ? `<p class="bnote">覆盖说明：共查询 ${scanned} 张谱，${noteParts.join("；")}（均未计入）。</p>` : "";
+  return `<div class="card">
+    <div class="who">
+      <span class="p">${esc(data.player.name)}</span>
+      <span class="s"><b>ID</b> ${data.player.id} · <b>rks</b> ${num(data.player.rks, 2)}</span>
+    </div>
+    <div class="bignum">
+      <span class="n">${num(data.total_pp, 1)}</span><span class="u">总 pp</span>
+      <span class="src">取前 ${data.count} 项 · osu 加权 ${data.decay}^i</span>
+    </div>
+    <div class="bstat">
+      <span>查询谱面 <b>${scanned}</b></span><span>可计分 <b>${found}</b></span>
+      ${oor > 0 ? `<span>难度越界已排除 <b>${oor}</b></span>` : ""}
+      <span>查询失败 <b>${failed}</b></span><span>并发 <b>${st.workers ?? "-"}</b></span>
+    </div>
+    ${note}
+    <div class="tscroll"><table class="best">
+      <thead><tr><th>#</th><th>pp</th><th>加权后PP</th><th>权重</th><th class="tname">曲名</th>
+        <th>等级</th><th>社区定数</th><th>分数</th><th>准确度</th></tr></thead>
+      <tbody>${rows}</tbody>
+    </table>${empty}</div>
+  </div>`;
+}
+
+async function runBest() {
+  const btn = $("#bgo");
+  if (btn.disabled) return;
+  if (meId == null) {
+    $("#bout").innerHTML = fail("no_id", { error: "未能取得账号 ID，请退出后重新登录" });
+    return;
+  }
+  btn.disabled = true;
+  $("#bout").innerHTML =
+    `<div class="card"><div class="skel">正在查询定数表谱面集（约 440 张谱，约 10–20 秒）…</div></div>`;
+  try {
+    const res = await fetch(`/api/best100?user=${encodeURIComponent(meId)}&n=100`);
+    $("#bout").innerHTML = renderBest(await res.json());
+  } catch (err) {
+    $("#bout").innerHTML = fail("network", { error: "无法连接本地服务", hint: String(err) });
+  } finally {
+    btn.disabled = false;
+  }
+}
+
+$("#f").addEventListener("submit", async (e) => {
+  e.preventDefault();
+  const chart = $("#chart").value.trim();
+  if (meId == null) {
+    $("#out").innerHTML = fail("no_id", { error: "未能取得账号 ID，请退出后重新登录" });
+    return;
+  }
+  if (!chart) return;
+  const btn = $("#go");
+  btn.disabled = true;
+  $("#out").innerHTML = `<div class="card"><div class="skel">正在获取成绩并计算…</div></div>`;
+  try {
+    const res = await fetch(`/api/result?user=${encodeURIComponent(meId)}&chart=${encodeURIComponent(chart)}`);
+    $("#out").innerHTML = render(await res.json());
+  } catch (err) {
+    $("#out").innerHTML = fail("network", { error: "无法连接本地服务", hint: String(err) });
+  } finally {
+    btn.disabled = false;
+  }
+});
+
+$("#bgo").addEventListener("click", (e) => { e.preventDefault(); runBest(); });
+
+// -- full-catalogue scan (background job + polling) -----------------------
+function renderProg(el, done, total, phase) {
+  const pct = total ? Math.round((done / total) * 100) : 0;
+  el.innerHTML = `<div class="prog">${esc(phase)} ${done} / ${total}（${pct}%）</div>
+    <div class="bar-track"><div class="bar-fill" style="width:${pct}%"></div></div>`;
+}
+
+async function runFullBest() {
+  const btn = $("#bfgo"), prog = $("#bfprog"), out = $("#bfout");
+  if (btn.disabled) return;
+  if (meId == null) {
+    out.innerHTML = fail("no_id", { error: "未能取得账号 ID，请退出后重新登录" });
+    return;
+  }
+  btn.disabled = true;
+  out.innerHTML = ""; prog.innerHTML = "";
+  try {
+    const res = await fetch("/api/best100-full", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ user: meId, n: 100 }),
+    });
+    const start = await res.json();
+    if (!res.ok || !start.ok) { out.innerHTML = fail(start.kind || "error", start); return; }
+    out.innerHTML = `<div class="card"><div class="skel">已在后台扫描，请保持本页开着等待进度。</div></div>`;
+    for (;;) {
+      await new Promise((r) => setTimeout(r, 1500));
+      const d = await (await fetch(`/api/best100-full?job=${encodeURIComponent(start.job)}`)).json();
+      if (!d.ok) { out.innerHTML = fail(d.kind || "error", d); return; }
+      if (d.running) { renderProg(prog, d.done, d.total, d.phase); continue; }
+      prog.innerHTML = "";
+      if (d.error) { out.innerHTML = fail("error", { error: d.error }); return; }
+      out.innerHTML = renderBest(d.result);
+      return;
+    }
+  } catch (err) {
+    out.innerHTML = fail("network", { error: "无法连接本地服务", hint: String(err) });
+  } finally {
+    btn.disabled = false;
+  }
+}
+
+$("#bfgo").addEventListener("click", (e) => { e.preventDefault(); runFullBest(); });
+
+// -- login gate ----------------------------------------------------------
+function showLmsg(msg) {
+  const el = $("#lmsg");
+  if (msg) { el.textContent = msg; el.hidden = false; }
+  else { el.textContent = ""; el.hidden = true; }
+}
+
+function showGate(msg) {
+  $("#app").hidden = true;
+  $("#gate").hidden = false;
+  showLmsg(msg);
+  $("#lpass").value = "";
+  meId = null;
+  $("#chart").value = "";
+  $("#out").innerHTML = "";
+  $("#bout").innerHTML = "";
+}
+
+function showApp(session) {
+  $("#gate").hidden = true;
+  $("#app").hidden = false;
+  meId = session.id ?? null;
+  const exp = session.expire_at ? ` · token 过期 <code>${esc(session.expire_at)}</code>` : "";
+  $("#userbar").innerHTML = `<span class="dot"></span>
+    <span>已登录 <b>${esc(session.name || "（未知昵称）")}</b> ·
+      ID <b>${session.id ?? "-"}</b>${exp}</span>
+    <button id="logout" class="ghost" type="button">退出登录</button>`;
+  $("#logout").addEventListener("click", logout);
+}
+
+async function doLogin(e) {
+  e.preventDefault();
+  const email = $("#lemail").value.trim();
+  const password = $("#lpass").value;
+  if (!email || !password) { showLmsg("请输入邮箱和密码"); return; }
+  const btn = $("#lgo");
+  const old = btn.textContent;
+  btn.disabled = true;
+  btn.textContent = "登录中…";
+  try {
+    const res = await fetch("/api/login", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ email, password }),
+    });
+    const text = await res.text();
+    let data = {};
+    try { data = JSON.parse(text); } catch (err) { data = {}; }
+    $("#lpass").value = "";                 // never keep the password in the DOM
+    if (res.ok && data.ok && data.logged_in) { showApp(data); return; }
+    showLmsg(data.error || `登录失败（HTTP ${res.status}）`);
+  } catch (err) {
+    showLmsg("无法连接本地服务：请用 start.bat 启动，并访问 http://127.0.0.1:8000/ 打开本页（不要直接双击 index.html）");
+  } finally {
+    btn.disabled = false;
+    btn.textContent = old;
+  }
+}
+
+async function logout() {
+  try { await fetch("/api/logout", { method: "POST" }); } catch (err) { /* ignore */ }
+  showGate();
+}
+
+async function loadSession() {
+  try {
+    const res = await fetch("/api/session");
+    const data = await res.json();
+    if (data.logged_in) { showApp(data); return; }
+    showGate();
+  } catch (err) {
+    showGate("无法连接本地服务：请用 start.bat 启动，并访问 http://127.0.0.1:8000/ 打开本页（不要直接双击 index.html）");
+  }
+}
+
+$("#lf").addEventListener("submit", doLogin);
+loadSession();
+</script>
+</body>
+</html>

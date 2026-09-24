@@ -1,0 +1,11 @@
+data/.token
+data/packages/
+__pycache__/
+*.pyc
+# personal data / throwaway local caches — never publish these
+data/user_scores_*.json
+data/.model_prev.json
+data/.clean_prev.json
+# third-party binaries / app packages: do not redistribute
+*.apk
+SuonasiOS-*.apk

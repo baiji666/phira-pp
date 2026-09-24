@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Phira PP 计算器</title>
+<style>
+  :root {
+    --bg: #0f1113; --panel: #16191c; --panel-2: #1c2024; --line: #262c31;
+    --text: #e9ebee; --muted: #98a2ab; --dim: #6b757e;
+    --accent: #f0b429; --bad: #e5533d; --good: #5bd07a;
+    --font: system-ui, -apple-system, "Segoe UI", "Microsoft YaHei", sans-serif;
+    --mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; }
+  body {
+    background: var(--bg); color: var(--text);
+    font: 15px/1.55 var(--font); -webkit-font-smoothing: antialiased;
+    padding: 32px 16px 72px;
+  }
+  .wrap { max-width: 1100px; margin: 0 auto; }
+
+  header { margin-bottom: 22px; }
+  h1 { font-size: 22px; letter-spacing: .2px; margin: 0 0 4px; }
+
+  .bar {
+    display: flex; flex-wrap: wrap; align-items: end; gap: 14px;
+    background: var(--panel); border: 1px solid var(--line); border-radius: 12px;
+    padding: 16px 18px; margin-top: 14px;
+  }
+  .bar .field { flex: 0 0 auto; }
+  .bar .note { color: var(--dim); font-size: 12.5px; margin-left: auto; }
+
+  form { display: grid; gap: 14px; grid-template-columns: 1fr auto; align-items: end; }
+  .field { display: grid; gap: 6px; min-width: 0; }
+  label { font-size: 12px; color: var(--muted); letter-spacing: .3px; }
+  input {
+    width: 100%; background: var(--panel-2); color: var(--text);
+    border: 1px solid var(--line); border-radius: 8px; padding: 10px 12px;
+    font: 15px/1 var(--mono); font-variant-numeric: tabular-nums;
+  }
+  input::placeholder { color: #576069; }
+  input:focus-visible, button:focus-visible, a:focus-visible {
+    outline: 2px solid var(--accent); outline-offset: 2px;
+  }
+  button {
+    background: var(--accent); color: #1a1406; border: 0; border-radius: 8px;
+    padding: 11px 20px; font-size: 14px; font-weight: 650; cursor: pointer;
+  }
+  button[disabled] { opacity: .55; cursor: progress; }
+
+  section { margin-top: 30px; }
+  section h2 { font-size: 16px; margin: 0 0 10px; letter-spacing: .2px; }
+
+  .prog { color: var(--muted); font-size: 13px; margin-top: 12px; font-family: var(--mono); }
+  .bar-track { height: 4px; background: var(--line); border-radius: 999px; overflow: hidden; margin-top: 8px; }
+  .bar-fill { height: 100%; width: 0; background: var(--accent); transition: width .15s linear; }
+
+  .card { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 20px; margin-top: 16px; }
+  .card.err { border-color: #4a2a25; background: #1a1513; }
+  .card.err .eh { font-weight: 650; margin-bottom: 8px; }
+  .card.err p { margin: 0 0 6px; color: var(--muted); font-size: 13.5px; }
+  .skel { color: var(--muted); font-size: 14px; }
+
+  .who { display: flex; flex-wrap: wrap; gap: 4px 12px; align-items: baseline; margin-bottom: 14px; }
+  .who .p { font-weight: 650; }
+  .who .s { color: var(--muted); font-size: 13px; }
+  .who .s b { color: var(--dim); font-weight: 500; }
+
+  .pp { display: flex; align-items: flex-end; gap: 12px; margin-bottom: 6px; }
+  .pp .n { font: 700 46px/1 var(--mono); font-variant-numeric: tabular-nums; color: var(--accent); letter-spacing: -1px; }
+  .pp .u { color: var(--muted); font-size: 13px; padding-bottom: 6px; }
+  .pp .src { margin-left: auto; color: var(--dim); font: 12px/1 var(--mono); padding-bottom: 8px; }
+  .bignum { display: flex; align-items: flex-end; gap: 10px; margin-bottom: 4px; }
+  .bignum .n { font: 700 42px/1 var(--mono); font-variant-numeric: tabular-nums; color: var(--accent); letter-spacing: -1px; }
+  .bignum .u { color: var(--muted); font-size: 13px; padding-bottom: 6px; }
+  .bignum .src { margin-left: auto; color: var(--dim); font: 12px/1 var(--mono); padding-bottom: 8px; }
+
+  .grid {
+    display: grid; grid-template-columns: repeat(4, 1fr); gap: 1px;
+    background: var(--line); border: 1px solid var(--line); border-radius: 10px;
+    overflow: hidden; margin: 16px 0;
+  }
+  .cell { background: var(--panel-2); padding: 11px 12px; }
+  .cell .k { color: var(--dim); font-size: 11.5px; letter-spacing: .3px; }
+  .cell .v { font: 600 17px/1.3 var(--mono); font-variant-numeric: tabular-nums; margin-top: 3px; }
+  .cell .v small { color: var(--dim); font-size: 12px; font-weight: 500; }
+
+  .rows { display: grid; gap: 7px; margin-top: 4px; }
+  .row { display: flex; justify-content: space-between; gap: 16px; font-size: 13.5px;
+         border-bottom: 1px dashed var(--line); padding-bottom: 7px; }
+  .row:last-child { border-bottom: 0; padding-bottom: 0; }
+  .row .k { color: var(--muted); }
+  .row .v { font-family: var(--mono); font-variant-numeric: tabular-nums; text-align: right; }
+  .fcm { color: var(--good); }
+  .miss { color: var(--bad); }
+
+  .bstat { display: flex; flex-wrap: wrap; gap: 4px 16px; color: var(--muted); font-size: 13px; margin: 12px 0; }
+  .bstat b { color: var(--text); font-family: var(--mono); }
+  .bnote { color: var(--dim); font-size: 12.5px; margin: -4px 0 12px; }
+  .tscroll { max-height: 620px; overflow: auto; border: 1px solid var(--line); border-radius: 10px; }
+  table.best { width: 100%; border-collapse: collapse; font-size: 13.5px; }
+  table.best th {
+    position: sticky; top: 0; background: var(--panel-2); color: var(--dim); font-weight: 500;
+    text-align: right; padding: 9px 10px; font-size: 11.5px; letter-spacing: .3px;
+    white-space: nowrap; border-bottom: 1px solid var(--line);
+  }
+  table.best td {
+    padding: 8px 10px; border-top: 1px solid var(--line); text-align: right;
+    font-family: var(--mono); font-variant-numeric: tabular-nums; white-space: nowrap;
+  }
+  table.best tbody tr:hover td { background: #1a1f24; }
+  table.best th.tname, table.best td.tname {
+    text-align: left; white-space: normal; min-width: 220px;
+  }
+  table.best td.trank { color: var(--dim); }
+  table.best td.tpp { color: var(--accent); font-weight: 650; }
+
+  @media (max-width: 620px) {
+    form, .bar { grid-template-columns: 1fr; }
+    .grid { grid-template-columns: repeat(2, 1fr); }
+    .pp .n { font-size: 38px; }
+    .bar .note { margin-left: 0; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Phira PP</h1>
+    <div class="bar">
+      <div class="field">
+        <label for="uid">Phira 数字 ID</label>
+        <input id="uid" type="number" inputmode="numeric" min="1" style="width:180px">
+      </div>
+      <div class="note">记在浏览器本地；查他人成绩直接改这个 ID 即可</div>
+    </div>
+  </header>
+
+  <section>
+    <h2>Best 100</h2>
+    <button id="bgo" type="button">生成 Best 100</button>
+    <div id="bprog"></div>
+    <div id="bout"></div>
+  </section>
+
+  <section>
+    <h2>单个成绩查询</h2>
+    <form id="f" autocomplete="off">
+      <div class="field">
+        <label for="chart">谱面编号</label>
+        <input id="chart" type="number" inputmode="numeric" min="1">
+      </div>
+      <button id="go" type="submit">计算 PP</button>
+    </form>
+    <div id="out"></div>
+  </section>
+</div>
+
+<script>
+/* ------------------------------------------------------------------ data ---
+ * id -> 社区定数. Suonasi KV table first, then the subjective 定数表 for the
+ * ids Suonasi does not cover (Suonasi wins on overlap). Injected by
+ * scripts/build_standalone.py. */
+const DIFF = __KV_TABLE_JSON__;
+
+/* ------------------------------------------------------- Phira API (CORS) ---
+ * Verified: the API answers Access-Control-Allow-Origin: * (simple GETs and the
+ * /login preflight alike), so a plain file:// page can call it directly.
+ * Two interchangeable hosts are used round-robin purely to double the browser's
+ * ~6-connections-per-origin cap for the per-chart requests.                   */
+const HOSTS = ["https://phira.5wyxi.com", "https://api.phira.cn"];
+let rr = 0;
+
+function apiUrl(path, params) {
+  const url = new URL(HOSTS[rr++ % HOSTS.length] + path);
+  if (params) for (const k in params) if (params[k] !== undefined) url.searchParams.set(k, params[k]);
+  return url.toString();
+}
+
+async function jget(path, params) {
+  const res = await fetch(apiUrl(path, params), { headers: { Accept: "application/json" } });
+  if (!res.ok) throw new Error("HTTP " + res.status);
+  return res.json();
+}
+
+/* --------------------------------------------------------------- PP math ---
+ * Mirrors phira_pp/pp.py exactly (PPParams defaults). */
+const P = {
+  ref_pp: 1000.0, ref_diff: 18.0, diff_exp: 6.0,
+  acc_floor: 0.70, acc_pow: 4.0,
+  precision_lo: 0.01538, precision_hi: 0.02707, precision_weight: 0.08,
+  error_pow: 3.0,
+};
+const BASE = P.ref_pp / Math.pow(P.ref_diff, P.diff_exp);
+const STD_PLAUSIBLE_MAX = 0.2;
+
+function precisionFactor(std) {
+  if (!(std > 0) || std > STD_PLAUSIBLE_MAX) return 1.0;
+  const span = P.precision_hi - P.precision_lo;
+  if (span <= 0) return 1.0;
+  let score = (P.precision_hi - std) / span;
+  score = Math.min(1, Math.max(0, score));
+  return 1.0 + P.precision_weight * (score - 0.5);
+}
+
+function performancePP(diff, r) {
+  const acc = Number(r.accuracy) || 0;
+  const accFactor = acc < P.acc_floor
+    ? 0
+    : Math.pow((acc - P.acc_floor) / (1 - P.acc_floor), P.acc_pow);
+  const total = Math.max(1, (r.perfect || 0) + (r.good || 0) + (r.bad || 0) + (r.miss || 0));
+  const errRate = ((r.bad || 0) + (r.miss || 0)) / total;
+  const errorFactor = Math.pow(1 - errRate, P.error_pow);
+  const precFactor = (Number(r.std) > 0) ? precisionFactor(Number(r.std)) : 1.0;
+  return {
+    difficulty: diff, acc_factor: accFactor, precision_factor: precFactor,
+    error_factor: errorFactor,
+    pp: BASE * Math.pow(diff, P.diff_exp) * accFactor * precFactor * errorFactor,
+  };
+}
+
+const OSU_DECAY = 0.95;
+const osuTotal = (pps) => pps.reduce((s, p, i) => s + p * Math.pow(OSU_DECAY, i), 0);
+
+/* ------------------------------------------------------------- difficulty ---
+ * Priority: ranked charter 定数 -> community 定数表 (Suonasi + 主观) ->
+ * (unavailable).  Self-developed D* needs Python chart-package parsing, so the
+ * browser build cannot provide it; such charts are reported instead of guessed. */
+function resolveDifficulty(cid, meta) {
+  if (meta && meta.ranked && Number(meta.difficulty) > 0) {
+    return [Number(meta.difficulty), "定数 (ranked)"];
+  }
+  if (DIFF[cid] != null) return [Number(DIFF[cid]), "定数表 (社区)"];
+  return [null, "无社区定数（纯网页版无 D*）"];
+}
+
+/* -------------------------------------------------------------- helpers --- */
+const $ = (s) => document.querySelector(s);
+const num = (v, d = 2, pad = false) => {
+  if (v === null || v === undefined || Number.isNaN(Number(v))) return "—";
+  const s = Number(v).toFixed(d);
+  return pad ? s.replace(/\B(?=(\d{3})+(?!\d))/g, ",") : s;
+};
+const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) =>
+  ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+
+const ID_KEY = "phira_pp_id";
+
+function currentId() {
+  const v = $("#uid").value.trim();
+  return /^\d+$/.test(v) ? Number(v) : null;
+}
+
+function failCard(kind, msg) {
+  return `<div class="card err"><div class="eh">${esc(msg)}</div>
+    <p style="color:var(--dim);font-family:var(--mono);font-size:12px">kind: ${esc(kind)}</p></div>`;
+}
+
+async function pool(items, limit, worker, onTick) {
+  const out = new Array(items.length);
+  let next = 0, done = 0;
+  const run = async () => {
+    for (;;) {
+      const i = next++;
+      if (i >= items.length) return;
+      try { out[i] = await worker(items[i], i); }
+      catch (e) { out[i] = { __error: e }; }
+      done++;
+      if (onTick) onTick(done, items.length);
+    }
+  };
+  await Promise.all(Array.from({ length: Math.max(1, Math.min(limit, items.length)) }, run));
+  return out;
+}
+
+async function getCharts(ids) {
+  const map = new Map();
+  const chunks = [];
+  for (let i = 0; i < ids.length; i += 100) chunks.push(ids.slice(i, i + 100));
+  await pool(chunks, 5, async (chunk) => {
+    const arr = await jget("/chart/multi-get", { ids: chunk.join(",") });
+    for (const m of arr) map.set(Number(m.id), m);
+  });
+  return map;
+}
+
+/* Every record the API returns for this player x chart (<=20).  Selection is
+ * deferred to bestRow() until the difficulty is known, because PP is NOT
+ * monotone in score.  Verified on 459003: picking by score understates the
+ * Best-100 by 287 PP (it also loses 8.5 PP to accuracy-only picking). */
+async function playerChart(uid, cid) {
+  const rows = await jget("/record", { player: uid, chart: cid });
+  return Array.isArray(rows) ? rows : [];
+}
+
+function pickBest(rows) {
+  if (!rows.length) return null;
+  const flagged = rows.filter((r) => r.best);
+  const list = flagged.length ? flagged : rows;
+  return list.reduce((a, b) => (Number(b.score) || 0) > (Number(a.score) || 0) ? b : a);
+}
+
+/* The row with the highest PP.  Falls back to pickBest() when the chart has no
+ * community 定数 (mirrors phira_pp.pipeline._best_play_row). */
+function bestRow(rows, diff) {
+  if (!rows || !rows.length) return null;
+  if (!diff) return pickBest(rows);
+  let best = rows[0], bestPp = -Infinity;
+  for (const r of rows) {
+    const pp = performancePP(diff, r).pp;
+    if (pp > bestPp) { bestPp = pp; best = r; }
+  }
+  return best;
+}
+
+/* ------------------------------------------------------------------ UI ---- */
+function renderRecord(r, meta, diff, src, b) {
+  const fcm = (r.miss === 0 && r.bad === 0)
+    ? `<span class="fcm">${r.full_combo ? "FC" : ""}</span>` : "";
+  const ppBlock = b
+    ? `<div class="pp"><span class="n">${num(b.pp, 1)}</span><span class="u">pp</span>
+         <span class="src">来源 ${esc(src)}</span></div>
+       <div class="grid">
+         <div class="cell"><div class="k">难度（采用）</div>
+           <div class="v">${num(b.difficulty, 2)}<small> ${esc(src)}</small></div></div>
+         <div class="cell"><div class="k">无暇度</div>
+           <div class="v">${num(Number(r.std) * 1000, 2)}<small> ms</small></div></div>
+         <div class="cell"><div class="k">准确率</div>
+           <div class="v">${num(Number(r.accuracy) * 100, 2)}<small> %</small></div></div>
+         <div class="cell"><div class="k">最大连击</div>
+           <div class="v">${r.max_combo ?? "—"}<small> / ${
+             (r.perfect || 0) + (r.good || 0) + (r.bad || 0) + (r.miss || 0)}</small></div></div>
+       </div>
+       <div class="rows">
+         <div class="row"><span class="k">分数</span><span class="v">${num(r.score, 0, true)}</span></div>
+         <div class="row"><span class="k">Perfect / Good / Bad / Miss</span>
+           <span class="v">${r.perfect} / ${r.good} / ${r.bad} / <span class="${r.miss ? "miss" : ""}">${r.miss}</span> ${fcm}</span></div>
+         <div class="row"><span class="k">PP 分解 · 难度^${num(P.diff_exp, 1)} × acc × 精度 × 漏键</span>
+           <span class="v">${num(b.acc_factor, 4)} × ${num(b.precision_factor, 4)} × ${num(b.error_factor, 4)}</span></div>
+       </div>`
+    : `<div class="card err" style="margin:0">
+         <div class="eh">无法计算 PP：该谱没有社区定数</div>
+         <p>谱面 #${esc(meta && meta.id)}「${esc(meta && meta.name)}」既不是 ranked 谱，也不在社区定数表（Suonasi / 主观定数表）中。</p>
+         <p>自研难度 D* 需要 Python 解析谱面包，纯网页版无法计算。</p>
+       </div>`;
+  return ppBlock;
+}
+
+function renderBest(top, metaMap, scanned, found, failed, uid, player) {
+  const rows = top.map((x, i) => `<tr>
+      <td class="trank">${i + 1}</td>
+      <td class="tpp">${num(x.pp, 1)}</td>
+      <td>${num(x.pp * Math.pow(OSU_DECAY, i), 1)}</td>
+      <td>&times;${num(Math.pow(OSU_DECAY, i), 2)}</td>
+      <td class="tname">#${x.cid} ${esc((metaMap.get(x.cid) || {}).name || "")}</td>
+      <td>${esc((metaMap.get(x.cid) || {}).level || "")}</td>
+      <td title="${esc(x.src)}">${num(x.diff, 2)}</td>
+      <td>${num(x.rec.score, 0, true)}</td>
+      <td>${num(Number(x.rec.accuracy) * 100, 2)}%</td>
+    </tr>`).join("");
+  const total = osuTotal(top.map((x) => x.pp));
+  const note = failed > 0
+    ? `<p class="bnote">覆盖说明：共查询 ${scanned} 张谱，其中 ${failed} 张请求失败（未计入）；
+        其余 ${found} 张为已游玩成绩（每谱直通查询，非排名截断）。</p>` : "";
+  const empty = top.length === 0
+    ? `<p class="skel" style="padding:14px">该 ID 在定数表谱面集中没有可查到的成绩。</p>` : "";
+  return `<div class="card">
+    <div class="who">
+      <span class="p">${esc((player && player.name) || "（未知昵称）")}</span>
+      <span class="s"><b>ID</b> ${esc(uid)} · <b>rks</b> ${num(player && player.rks, 2)}</span>
+    </div>
+    <div class="bignum">
+      <span class="n">${num(total, 1)}</span><span class="u">总 pp</span>
+      <span class="src">取前 ${top.length} 项 · osu 加权 ${OSU_DECAY}^i</span>
+    </div>
+    <div class="bstat">
+      <span>查询谱面 <b>${scanned}</b></span><span>已游玩 <b>${found}</b></span>
+      <span>查询失败 <b>${failed}</b></span>
+    </div>
+    ${note}
+    <div class="tscroll"><table class="best">
+      <thead><tr><th>#</th><th>pp</th><th>加权后PP</th><th>权重</th><th class="tname">曲名</th>
+        <th>等级</th><th>社区定数</th><th>分数</th><th>准确度</th></tr></thead>
+      <tbody>${rows}</tbody>
+    </table>${empty}</div>
+  </div>`;
+}
+
+function setProgress(el, done, total, label) {
+  const pct = total ? Math.round((done / total) * 100) : 0;
+  el.innerHTML = `<div class="prog">${esc(label)} ${done} / ${total}（${pct}%）</div>
+    <div class="bar-track"><div class="bar-fill" style="width:${pct}%"></div></div>`;
+}
+
+/* --------------------------------------------------------------- actions --- */
+let busy = false;
+
+async function runBest() {
+  const uid = currentId();
+  const out = $("#bout"), prog = $("#bprog"), btn = $("#bgo");
+  if (uid === null) { out.innerHTML = failCard("bad_request", "请先填写有效的 Phira 数字 ID"); return; }
+  if (busy) return;
+  busy = true; btn.disabled = true;
+  out.innerHTML = ""; prog.innerHTML = "";
+  try {
+    const ids = Object.keys(DIFF).map(Number);
+    setProgress(prog, 0, ids.length, "获取谱面信息…");
+    const metaMap = await getCharts(ids);
+
+    let player = null;
+    try { player = await jget(`/user/${uid}`); } catch (e) { /* cosmetic */ }
+
+    const recs = await pool(ids, 12, (cid) => playerChart(uid, cid),
+      (done, total) => setProgress(prog, done, total, "查询成绩…"));
+
+    const items = [];
+    let failed = 0;
+    recs.forEach((rows, idx) => {
+      if (rows && rows.__error) { failed++; return; }   // 失败显式计入
+      if (!rows || !rows.length) return;                // 未游玩
+      const cid = ids[idx];
+      const meta = metaMap.get(cid) || null;
+      const [diff, src] = resolveDifficulty(cid, meta);
+      const r = bestRow(rows, diff);
+      if (!r) return;
+      const b = diff ? performancePP(diff, r) : null;
+      items.push({ cid, rec: r, diff, src, pp: b ? b.pp : 0 });
+    });
+    items.sort((a, b) => b.pp - a.pp);
+    const top = items.slice(0, 100);
+    prog.innerHTML = "";
+    out.innerHTML = renderBest(top, metaMap, ids.length, items.length, failed, uid, player);
+  } catch (err) {
+    prog.innerHTML = "";
+    out.innerHTML = failCard("network", "查询失败：" + (err && err.message ? err.message : err));
+  } finally {
+    busy = false; btn.disabled = false;
+  }
+}
+
+async function runSingle(e) {
+  if (e) e.preventDefault();
+  const uid = currentId();
+  const out = $("#out");
+  const chartRaw = $("#chart").value.trim();
+  if (uid === null) { out.innerHTML = failCard("bad_request", "请先填写有效的 Phira 数字 ID"); return; }
+  if (!/^\d+$/.test(chartRaw)) { out.innerHTML = failCard("bad_request", "请输入有效的谱面编号"); return; }
+  const cid = Number(chartRaw);
+  if (busy) return;
+  busy = true;
+  out.innerHTML = `<div class="card"><div class="skel">正在获取成绩并计算…</div></div>`;
+  try {
+    let meta = null;
+    try { meta = await jget(`/chart/${cid}`); }
+    catch (err) { out.innerHTML = failCard("chart_not_found", `找不到谱面 #${cid}`); return; }
+    const rows = await playerChart(uid, cid);
+    if (!rows.length) { out.innerHTML = failCard("record_not_found", `该 ID 在谱面 #${cid} 上没有成绩（未游玩或未上传）`); return; }
+    const [diff, src] = resolveDifficulty(cid, meta);
+    const r = bestRow(rows, diff);
+    if (!r) { out.innerHTML = failCard("record_not_found", `该 ID 在谱面 #${cid} 上没有成绩（未游玩或未上传）`); return; }
+    const b = diff ? performancePP(diff, r) : null;
+    out.innerHTML = `<div class="card">
+      <div class="who">
+        <span class="p">#${esc(meta.id)} ${esc(meta.name)}</span>
+        <span class="s"><b>等级</b> ${esc(meta.level || "—")} · <b>定数</b> ${num(meta.difficulty, 2)}
+          · <b>谱师</b> ${esc(meta.charter || "—")}</span>
+      </div>
+      ${renderRecord(r, meta, diff, src, b)}
+    </div>`;
+  } catch (err) {
+    out.innerHTML = failCard("network", "查询失败：" + (err && err.message ? err.message : err));
+  } finally {
+    busy = false;
+  }
+}
+
+/* ------------------------------------------------------------------ init --- */
+$("#bgo").addEventListener("click", runBest);
+$("#f").addEventListener("submit", runSingle);
+$("#uid").addEventListener("input", () => {
+  const v = $("#uid").value.trim();
+  try { localStorage.setItem(ID_KEY, v); } catch (e) { /* private mode */ }
+});
+try {
+  const saved = localStorage.getItem(ID_KEY);
+  if (saved) $("#uid").value = saved;
+} catch (e) { /* ignore */ }
+</script>
+</body>
+</html>
